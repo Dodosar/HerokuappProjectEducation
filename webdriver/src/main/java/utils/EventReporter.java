@@ -119,7 +119,7 @@ public class EventReporter implements WebDriverEventListener {
 	@Override
 	public void beforeScript(String script, WebDriver driver) {
 		// TODO Auto-generated method stub
-		System.out.println("Display script: " + script);
+		//System.out.println("Display script: " + script);
 	}
 
 	@Override
