@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation University Suite">	
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  	<parameter name="browserType" value="FireFox" />
+	<test name="Navigation Test">
+ 		<groups>
+			<run>
+				<include name="checkintest"/>
+				<exclude name="broken"/>				
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="navigation.NavigationTests">	
+				<!-- <methods>
+					<include name="testNavigator" />
+					<exclude name="testSwitchTab" />
+				</methods>		 -->
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LoginParameters Test">
+		<parameter name = "user" value ="tomsmith"/>
+		<parameter name = "password" value ="SuperSecretPassword!"/>		
+		<classes>
+			<class name="login.LoginTests">
+				<methods>
+					<include name="testSuccessfulLogin3Parameters"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Test Automation University Suite -->

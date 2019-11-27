@@ -1,0 +1,171 @@
+{
+  "uid" : "e65ca3886fb4f844",
+  "name" : "testFileUpload",
+  "fullName" : "UploadFile.UploadFileTests.testFileUpload",
+  "historyId" : "1a89b89d300565d2988942313e8473d1",
+  "time" : {
+    "start" : 1574783629826,
+    "stop" : 1574783630730,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1574783629592,
+      "stop" : 1574783629822,
+      "duration" : 230
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1574783624795,
+      "stop" : 1574783629592,
+      "duration" : 4797
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1574783630732,
+      "stop" : 1574783630732,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1574783630978,
+      "stop" : 1574783631569,
+      "duration" : 591
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "takeScreenshot",
+    "time" : {
+      "start" : 1574783630734,
+      "stop" : 1574783630976,
+      "duration" : 242
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "UploadFile.UploadFileTests"
+  }, {
+    "name" : "testClass",
+    "value" : "UploadFile.UploadFileTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFileUpload"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation University Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Upload Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "UploadFile.UploadFileTests"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "20504@TYUDM.TestNG-test=Upload Test-1(176)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f30ff2fbfa4b8b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574780943823,
+        "stop" : 1574780944886,
+        "duration" : 1063
+      }
+    }, {
+      "uid" : "e643315e9fa6479f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574780641425,
+        "stop" : 1574780642358,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "57d58ec636a3290f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574780190270,
+        "stop" : 1574780191204,
+        "duration" : 934
+      }
+    }, {
+      "uid" : "c2ddc5b9ecf2194e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574775413828,
+        "stop" : 1574775414737,
+        "duration" : 909
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e65ca3886fb4f844.json",
+  "parameterValues" : [ "Chrome" ]
+}

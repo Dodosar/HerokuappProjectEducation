@@ -1,0 +1,173 @@
+{
+  "uid" : "62910af18149d757",
+  "name" : "testPi",
+  "fullName" : "keys.KeysTests.testPi",
+  "historyId" : "8ad6dc4adc5222452ca0b4d6bac31ea1",
+  "time" : {
+    "start" : 1574783381548,
+    "stop" : 1574783381961,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1574783373763,
+      "stop" : 1574783380279,
+      "duration" : 6516
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1574783381335,
+      "stop" : 1574783381544,
+      "duration" : 209
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1574783382230,
+      "stop" : 1574783383433,
+      "duration" : 1203
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1574783381964,
+      "stop" : 1574783381964,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "takeScreenshot",
+    "time" : {
+      "start" : 1574783381966,
+      "stop" : 1574783382228,
+      "duration" : 262
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "testClass",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation University Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Keys Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "20504@TYUDM.TestNG-test=Keys Test-1(108)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bda680d358cc5757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574780896534,
+        "stop" : 1574780896948,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "fabb76e806338d78",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=78.0.3904.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-3', revision: '8c567de6dc'\nSystem info: host: 'TYUDM', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\tyudm\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56318}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 66968812674ab6023bc08aac6909effc",
+      "time" : {
+        "start" : 1574780594633,
+        "stop" : 1574780594967,
+        "duration" : 334
+      }
+    }, {
+      "uid" : "a9011b862981a554",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=78.0.3904.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-3', revision: '8c567de6dc'\nSystem info: host: 'TYUDM', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\tyudm\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2ee5e9f468986d7698aac2f318a5444e",
+      "time" : {
+        "start" : 1574780137124,
+        "stop" : 1574780137470,
+        "duration" : 346
+      }
+    }, {
+      "uid" : "de2dfee87a5ce652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574775353156,
+        "stop" : 1574775353528,
+        "duration" : 372
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62910af18149d757.json",
+  "parameterValues" : [ "Chrome" ]
+}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation University Suite" verbose="2" parallel="classes" thread-count="3">
+  	<parameter name="browserType" value="Chrome" />
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+	<test name="Alerts Test">
+		<classes>
+			<class name="AlertsPage.AlertsTests">
+				<methods>
+					<include name="JSAlertTest" />
+					<include name="JSConfirmAlert" />
+					<include name="testSetInputInAlert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="ContextMenu Test">
+		<classes>
+			<class name="contextMenu.ContextTests">
+				<methods>
+					<include name="testRightClick" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Cookies Test">
+		<classes>
+			<class name="Cookies.CookiesTests">
+				<methods>
+					<include name="testDeleteCookie" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="DropDown Test">
+		<classes>
+			<class name="dropdown.DropdownTests">
+				<methods>
+					<include name="testSelectOption" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="FrogotPassword Test">
+		<classes>
+			<class name="forgotPassword.forgotPasswordTests">
+				<methods>
+					<include name="testSendingEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Frames Test">
+		<classes>
+			<class name="Frames.FramesTests">
+				<methods>
+					<include name="ParagraphTest" />
+				</methods>
+			</class>
+			<class name="Frames.NestedFramesTests">
+				<methods>
+					<include name="BottomFrameTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Hovers Test">
+		<classes>
+			<class name="hover.HoverTests">
+				<methods>
+					<include name="testHoverUser1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="JS Test">
+		<classes>
+			<class name="javaScript.JavaScriptTests">
+				<methods>
+					<include name="testScrollToTable" />
+					<include name="testDomain" />
+					<include name="testScrollToButtom" />
+					<include name="testScrollToFifthParagraph" />
+					<include name="testSelectOption" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Keys Test">
+		<classes>
+			<class name="keys.KeysTests">
+				<methods>
+					<include name="testBackSpace" />
+					<include name="testPi" />
+				</methods>
+			</class>
+			
+			<class name="keys.MultiplyWindows">
+				<methods>
+					<include name="FactExampleTests" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Login Test">
+		<classes>
+			<class name="login.LoginTests">
+				<methods>
+					<include name="testSuccessfulLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="LoginParameters Test">
+		<parameter name = "user" value ="tomsmith"/>
+		<parameter name = "password" value ="SuperSecretPassword!"/>		
+		<classes>
+			<class name="login.LoginTests">
+				<methods>
+					<include name="testSuccessfulLogin3Parameters"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Modal Test">
+		<classes>
+			<class name="ModalWindow.ModalTests">
+				<methods>
+					<include name="closeTestModal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Navigation Test">
+		<classes>
+			<class name="navigation.NavigationTests">	
+				<methods>
+					<include name="testNavigator" />
+					<include name="testSwitchTab" />
+				</methods>		
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Slider Test">
+		<classes>
+			<class name="Slider.sliderTests">
+				<methods>
+					<include name="setSliderNumberFour" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Upload Test">
+		<classes>
+			<class name="UploadFile.UploadFileTests">
+				<methods>
+					<include name="testFileUpload" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="Wait Test">
+		<classes>
+			<class name="Wait.FluentWait">
+				<methods>
+					<include name="testWaitUntilHidden" />
+				</methods>
+			</class>
+			<class name="Wait.WaitFactExercise">
+				<methods>
+					<include name="FactTest" />
+				</methods>
+			</class>
+			<class name="Wait.WaitTests">
+				<methods>
+					<include name="testWaitUntilHidden" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="FireFox Tests">
+		<parameter name="browserType" value="FireFox" />
+		<classes>
+			<class name="AlertsPage.AlertsTests"/>
+			<class name="ModalWindow.ModalTests"/>
+		</classes>
+	</test>
+	
+
+
+
+</suite> <!-- Test Automation University Suite -->

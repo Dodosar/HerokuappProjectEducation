@@ -1,0 +1,137 @@
+{
+  "uid" : "7b46c4ff1a773b6d",
+  "name" : "testScrollToTable",
+  "fullName" : "javaScript.JavaScriptTests.testScrollToTable",
+  "historyId" : "5cf64d44c6190b82c679ef5c374d47cf",
+  "time" : {
+    "start" : 1574780126338,
+    "stop" : 1574780127503,
+    "duration" : 1165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1574780121505,
+      "stop" : 1574780126093,
+      "duration" : 4588
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1574780126094,
+      "stop" : 1574780126325,
+      "duration" : 231
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1574780131222,
+      "stop" : 1574780131793,
+      "duration" : 571
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1574780127506,
+      "stop" : 1574780127506,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "takeScreenshot",
+    "time" : {
+      "start" : 1574780127508,
+      "stop" : 1574780127827,
+      "duration" : 319
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "testClass",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testScrollToTable"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation University Suite"
+  }, {
+    "name" : "suite",
+    "value" : "JS Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "19928@TYUDM.TestNG-test=JS Test-1(99)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b46c4ff1a773b6d.json",
+  "parameterValues" : [ "Chrome" ]
+}

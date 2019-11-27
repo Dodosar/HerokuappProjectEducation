@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Frames Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.251">
+  <properties />
+  
+  
+            <testcase name="ParagraphTest" time="1.251" classname="Frames.FramesTests" />
+      
+</testsuite>

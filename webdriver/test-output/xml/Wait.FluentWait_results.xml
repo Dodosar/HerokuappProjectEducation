@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Wait Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.957">
+  <properties />
+  
+  
+            <testcase name="testWaitUntilHidden" time="5.957" classname="Wait.FluentWait" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContextMenu Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.521">
+  <properties />
+  
+  
+            <testcase name="testRightClick" time="0.521" classname="contextMenu.ContextTests" />
+      
+</testsuite>

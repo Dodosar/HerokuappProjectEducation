@@ -1,0 +1,74 @@
+{
+  "uid" : "c1d8ff388bcc15ec",
+  "name" : "testWaitUntilHidden",
+  "fullName" : "Wait.FluentWait.testWaitUntilHidden",
+  "historyId" : "223113de31ff030fb0cd861b3f224a57",
+  "time" : {
+    "start" : 1574783105638,
+    "stop" : 1574783105642,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "\nParameter 'browserType' is required by BeforeClass on method setUp but has not been marked @Optional or defined\nin C:\\Users\\tyudm\\AppData\\Local\\Temp\\testng-eclipse-469809265\\testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'browserType' is required by BeforeClass on method setUp but has not been marked @Optional or defined\nin C:\\Users\\tyudm\\AppData\\Local\\Temp\\testng-eclipse-469809265\\testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:199)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:443)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1574783105774,
+      "stop" : 1574783105778,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Wait.FluentWait"
+  }, {
+    "name" : "testClass",
+    "value" : "Wait.FluentWait"
+  }, {
+    "name" : "testMethod",
+    "value" : "testWaitUntilHidden"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Wait.FluentWait"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "18864@TYUDM.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1d8ff388bcc15ec.json",
+  "parameterValues" : [ ]
+}

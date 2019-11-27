@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Automation_University_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Test Automation University Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>C:\Users\tyudm\eclipse-workspace\webdriver\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Automation_University_Suite" class="navigator-link ">
+                    <span class="test-stats">17 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Automation_University_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Automation_University_Suite" class="hide-methods failed suite-Test_Automation_University_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Automation_University_Suite -->
+                      <a href="#" panel-name="suite-Test_Automation_University_Suite" class="show-methods failed suite-Test_Automation_University_Suite"> (show)</a> <!-- show-methods failed suite-Test_Automation_University_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Automation_University_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="navigation.NavigationTests" class="method navigator-link" hash-for-method="testNavigator">testNavigator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="login.LoginTests" class="method navigator-link" hash-for-method="testSuccessfulLogin(Pe, SuperSecretPassword!)">testSuccessfulLogin(Pe, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Automation_University_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation_University_Suite" class="hide-methods passed suite-Test_Automation_University_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Automation_University_Suite -->
+                      <a href="#" panel-name="suite-Test_Automation_University_Suite" class="show-methods passed suite-Test_Automation_University_Suite"> (show)</a> <!-- show-methods passed suite-Test_Automation_University_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation_University_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Frames.NestedFramesTests" class="method navigator-link" hash-for-method="BottomFrameTest">BottomFrameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="keys.MultiplyWindows" class="method navigator-link" hash-for-method="FactExampleTests">FactExampleTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Wait.WaitFactExercise" class="method navigator-link" hash-for-method="FactTest">FactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="JSAlertTest">JSAlertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="JSAlertTest">JSAlertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="JSConfirmAlert">JSConfirmAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="JSConfirmAlert">JSConfirmAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Frames.FramesTests" class="method navigator-link" hash-for-method="ParagraphTest">ParagraphTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="ModalWindow.ModalTests" class="method navigator-link" hash-for-method="closeTestModal">closeTestModal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="ModalWindow.ModalTests" class="method navigator-link" hash-for-method="closeTestModal">closeTestModal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Slider.sliderTests" class="method navigator-link" hash-for-method="setSliderNumberFour">setSliderNumberFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="keys.KeysTests" class="method navigator-link" hash-for-method="testBackSpace">testBackSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Cookies.CookiesTests" class="method navigator-link" hash-for-method="testDeleteCookie">testDeleteCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="javaScript.JavaScriptTests" class="method navigator-link" hash-for-method="testDomain">testDomain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="UploadFile.UploadFileTests" class="method navigator-link" hash-for-method="testFileUpload">testFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="hover.HoverTests" class="method navigator-link" hash-for-method="testHoverUser1">testHoverUser1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="keys.KeysTests" class="method navigator-link" hash-for-method="testPi">testPi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="contextMenu.ContextTests" class="method navigator-link" hash-for-method="testRightClick">testRightClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="javaScript.JavaScriptTests" class="method navigator-link" hash-for-method="testScrollToButtom">testScrollToButtom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="javaScript.JavaScriptTests" class="method navigator-link" hash-for-method="testScrollToFifthParagraph">testScrollToFifthParagraph</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="javaScript.JavaScriptTests" class="method navigator-link" hash-for-method="testScrollToTable">testScrollToTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="dropdown.DropdownTests" class="method navigator-link" hash-for-method="testSelectOption">testSelectOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="javaScript.JavaScriptTests" class="method navigator-link" hash-for-method="testSelectOption">testSelectOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="forgotPassword.forgotPasswordTests" class="method navigator-link" hash-for-method="testSendingEmail">testSendingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="testSetInputInAlert">testSetInputInAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="AlertsPage.AlertsTests" class="method navigator-link" hash-for-method="testSetInputInAlert">testSetInputInAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="login.LoginTests" class="method navigator-link" hash-for-method="testSuccessfulLogin(tomsmith, SuperSecretPassword!)">testSuccessfulLogin(tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="login.LoginTests" class="method navigator-link" hash-for-method="testSuccessfulLogin3Parameters(tomsmith, SuperSecretPassword!)">testSuccessfulLogin3Parameters(tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="navigation.NavigationTests" class="method navigator-link" hash-for-method="testSwitchTab">testSwitchTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Wait.FluentWait" class="method navigator-link" hash-for-method="testWaitUntilHidden">testWaitUntilHidden</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_University_Suite" title="Wait.WaitTests" class="method navigator-link" hash-for-method="testWaitUntilHidden">testWaitUntilHidden</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation_University_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation_University_Suite" class="panel Test_Automation_University_Suite">
+          <div class="suite-Test_Automation_University_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">login.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin(Pe, SuperSecretPassword!)">
+                  </a> <!-- testSuccessfulLogin(Pe, SuperSecretPassword!) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(Pe, SuperSecretPassword!)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Alert text is incorrect! expected [true] but found [false]
+	at login.LoginTests.testSuccessfulLogin(LoginTests.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-failed -->
+          <div class="suite-Test_Automation_University_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">navigation.NavigationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigator">
+                  </a> <!-- testNavigator -->
+                  <span class="method-name">testNavigator</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	The Welcome Link Is Not Correct On The Home Page expected [false] but found [true],
+	The Dashboard Is Not Correct On The Home Page expected [true] but found [false]
+	at navigation.NavigationTests.testNavigator(NavigationTests.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-failed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Wait.WaitFactExercise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactTest">
+                  </a> <!-- FactTest -->
+                  <span class="method-name">FactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AlertsPage.AlertsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JSAlertTest">
+                  </a> <!-- JSAlertTest -->
+                  <span class="method-name">JSAlertTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JSAlertTest">
+                  </a> <!-- JSAlertTest -->
+                  <span class="method-name">JSAlertTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JSConfirmAlert">
+                  </a> <!-- JSConfirmAlert -->
+                  <span class="method-name">JSConfirmAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JSConfirmAlert">
+                  </a> <!-- JSConfirmAlert -->
+                  <span class="method-name">JSConfirmAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetInputInAlert">
+                  </a> <!-- testSetInputInAlert -->
+                  <span class="method-name">testSetInputInAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetInputInAlert">
+                  </a> <!-- testSetInputInAlert -->
+                  <span class="method-name">testSetInputInAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Wait.WaitTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitUntilHidden">
+                  </a> <!-- testWaitUntilHidden -->
+                  <span class="method-name">testWaitUntilHidden</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contextMenu.ContextTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRightClick">
+                  </a> <!-- testRightClick -->
+                  <span class="method-name">testRightClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ModalWindow.ModalTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeTestModal">
+                  </a> <!-- closeTestModal -->
+                  <span class="method-name">closeTestModal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeTestModal">
+                  </a> <!-- closeTestModal -->
+                  <span class="method-name">closeTestModal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Wait.FluentWait</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitUntilHidden">
+                  </a> <!-- testWaitUntilHidden -->
+                  <span class="method-name">testWaitUntilHidden</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin(tomsmith, SuperSecretPassword!)">
+                  </a> <!-- testSuccessfulLogin(tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin3Parameters(tomsmith, SuperSecretPassword!)">
+                  </a> <!-- testSuccessfulLogin3Parameters(tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">testSuccessfulLogin3Parameters</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">forgotPassword.forgotPasswordTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSendingEmail">
+                  </a> <!-- testSendingEmail -->
+                  <span class="method-name">testSendingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">keys.KeysTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBackSpace">
+                  </a> <!-- testBackSpace -->
+                  <span class="method-name">testBackSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPi">
+                  </a> <!-- testPi -->
+                  <span class="method-name">testPi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">UploadFile.UploadFileTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileUpload">
+                  </a> <!-- testFileUpload -->
+                  <span class="method-name">testFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">javaScript.JavaScriptTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDomain">
+                  </a> <!-- testDomain -->
+                  <span class="method-name">testDomain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollToButtom">
+                  </a> <!-- testScrollToButtom -->
+                  <span class="method-name">testScrollToButtom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollToFifthParagraph">
+                  </a> <!-- testScrollToFifthParagraph -->
+                  <span class="method-name">testScrollToFifthParagraph</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollToTable">
+                  </a> <!-- testScrollToTable -->
+                  <span class="method-name">testScrollToTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectOption">
+                  </a> <!-- testSelectOption -->
+                  <span class="method-name">testSelectOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">navigation.NavigationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSwitchTab">
+                  </a> <!-- testSwitchTab -->
+                  <span class="method-name">testSwitchTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Slider.sliderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setSliderNumberFour">
+                  </a> <!-- setSliderNumberFour -->
+                  <span class="method-name">setSliderNumberFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Frames.FramesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ParagraphTest">
+                  </a> <!-- ParagraphTest -->
+                  <span class="method-name">ParagraphTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Frames.NestedFramesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BottomFrameTest">
+                  </a> <!-- BottomFrameTest -->
+                  <span class="method-name">BottomFrameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hover.HoverTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHoverUser1">
+                  </a> <!-- testHoverUser1 -->
+                  <span class="method-name">testHoverUser1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">keys.MultiplyWindows</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactExampleTests">
+                  </a> <!-- FactExampleTests -->
+                  <span class="method-name">FactExampleTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dropdown.DropdownTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectOption">
+                  </a> <!-- testSelectOption -->
+                  <span class="method-name">testSelectOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+          <div class="suite-Test_Automation_University_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Cookies.CookiesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteCookie">
+                  </a> <!-- testDeleteCookie -->
+                  <span class="method-name">testDeleteCookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_University_Suite-class-passed -->
+        </div> <!-- panel Test_Automation_University_Suite -->
+        <div panel-name="test-xml-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tyudm\eclipse-workspace\webdriver\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Test Automation University Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browserType&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Alerts Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AlertsPage.AlertsTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;JSAlertTest&quot;/&gt;
+          &lt;include name=&quot;JSConfirmAlert&quot;/&gt;
+          &lt;include name=&quot;testSetInputInAlert&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- AlertsPage.AlertsTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alerts Test --&gt;
+  &lt;test name=&quot;ContextMenu Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;contextMenu.ContextTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testRightClick&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- contextMenu.ContextTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContextMenu Test --&gt;
+  &lt;test name=&quot;Cookies Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cookies.CookiesTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testDeleteCookie&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cookies.CookiesTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cookies Test --&gt;
+  &lt;test name=&quot;DropDown Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dropdown.DropdownTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSelectOption&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- dropdown.DropdownTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DropDown Test --&gt;
+  &lt;test name=&quot;FrogotPassword Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;forgotPassword.forgotPasswordTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSendingEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- forgotPassword.forgotPasswordTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FrogotPassword Test --&gt;
+  &lt;test name=&quot;Frames Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Frames.FramesTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ParagraphTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Frames.FramesTests --&gt;
+      &lt;class name=&quot;Frames.NestedFramesTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;BottomFrameTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Frames.NestedFramesTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Frames Test --&gt;
+  &lt;test name=&quot;Hovers Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;hover.HoverTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testHoverUser1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- hover.HoverTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hovers Test --&gt;
+  &lt;test name=&quot;JS Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;javaScript.JavaScriptTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testScrollToTable&quot;/&gt;
+          &lt;include name=&quot;testDomain&quot;/&gt;
+          &lt;include name=&quot;testScrollToButtom&quot;/&gt;
+          &lt;include name=&quot;testScrollToFifthParagraph&quot;/&gt;
+          &lt;include name=&quot;testSelectOption&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- javaScript.JavaScriptTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JS Test --&gt;
+  &lt;test name=&quot;Keys Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;keys.KeysTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testBackSpace&quot;/&gt;
+          &lt;include name=&quot;testPi&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- keys.KeysTests --&gt;
+      &lt;class name=&quot;keys.MultiplyWindows&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;FactExampleTests&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- keys.MultiplyWindows --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Keys Test --&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login.LoginTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSuccessfulLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- login.LoginTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test name=&quot;LoginParameters Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;tomsmith&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login.LoginTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSuccessfulLogin3Parameters&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- login.LoginTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginParameters Test --&gt;
+  &lt;test name=&quot;Modal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ModalWindow.ModalTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;closeTestModal&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ModalWindow.ModalTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modal Test --&gt;
+  &lt;test name=&quot;Navigation Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;navigation.NavigationTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testNavigator&quot;/&gt;
+          &lt;include name=&quot;testSwitchTab&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- navigation.NavigationTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Navigation Test --&gt;
+  &lt;test name=&quot;Slider Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Slider.sliderTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setSliderNumberFour&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Slider.sliderTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Slider Test --&gt;
+  &lt;test name=&quot;Upload Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;UploadFile.UploadFileTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testFileUpload&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- UploadFile.UploadFileTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upload Test --&gt;
+  &lt;test name=&quot;Wait Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Wait.FluentWait&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testWaitUntilHidden&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Wait.FluentWait --&gt;
+      &lt;class name=&quot;Wait.WaitFactExercise&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;FactTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Wait.WaitFactExercise --&gt;
+      &lt;class name=&quot;Wait.WaitTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testWaitUntilHidden&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Wait.WaitTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Wait Test --&gt;
+  &lt;test name=&quot;FireFox Tests&quot;&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AlertsPage.AlertsTests&quot;/&gt;
+      &lt;class name=&quot;ModalWindow.ModalTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FireFox Tests --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation University Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation University Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Alerts Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ContextMenu Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cookies Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DropDown Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FrogotPassword Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Frames Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Hovers Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">JS Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Keys Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginParameters Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Modal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Navigation Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Slider Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upload Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Wait Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FireFox Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation University Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">broken</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNavigator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkintest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNavigator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSwitchTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSwitchTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation University Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation_University_Suite');
+function tableData_Test_Automation_University_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testWaitUntilHidden')
+data.setCell(0, 2, 'Wait.WaitTests')
+data.setCell(0, 3, 6134);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWaitUntilHidden')
+data.setCell(1, 2, 'Wait.FluentWait')
+data.setCell(1, 3, 5940);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FactTest')
+data.setCell(2, 2, 'Wait.WaitFactExercise')
+data.setCell(2, 3, 5847);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'closeTestModal')
+data.setCell(3, 2, 'ModalWindow.ModalTests')
+data.setCell(3, 3, 3189);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'closeTestModal')
+data.setCell(4, 2, 'ModalWindow.ModalTests')
+data.setCell(4, 3, 2805);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNavigator')
+data.setCell(5, 2, 'navigation.NavigationTests')
+data.setCell(5, 3, 1871);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FactExampleTests')
+data.setCell(6, 2, 'keys.MultiplyWindows')
+data.setCell(6, 3, 1595);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSwitchTab')
+data.setCell(7, 2, 'navigation.NavigationTests')
+data.setCell(7, 3, 1499);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSuccessfulLogin3Parameters')
+data.setCell(8, 2, 'login.LoginTests')
+data.setCell(8, 3, 1342);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testScrollToFifthParagraph')
+data.setCell(9, 2, 'javaScript.JavaScriptTests')
+data.setCell(9, 3, 1238);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSendingEmail')
+data.setCell(10, 2, 'forgotPassword.forgotPasswordTests')
+data.setCell(10, 3, 1233);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSuccessfulLogin')
+data.setCell(11, 2, 'login.LoginTests')
+data.setCell(11, 3, 1165);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ParagraphTest')
+data.setCell(12, 2, 'Frames.FramesTests')
+data.setCell(12, 3, 1077);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'BottomFrameTest')
+data.setCell(13, 2, 'Frames.NestedFramesTests')
+data.setCell(13, 3, 1034);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSuccessfulLogin')
+data.setCell(14, 2, 'login.LoginTests')
+data.setCell(14, 3, 961);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testFileUpload')
+data.setCell(15, 2, 'UploadFile.UploadFileTests')
+data.setCell(15, 3, 897);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testScrollToTable')
+data.setCell(16, 2, 'javaScript.JavaScriptTests')
+data.setCell(16, 3, 891);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'setSliderNumberFour')
+data.setCell(17, 2, 'Slider.sliderTests')
+data.setCell(17, 3, 853);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'JSConfirmAlert')
+data.setCell(18, 2, 'AlertsPage.AlertsTests')
+data.setCell(18, 3, 772);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSelectOption')
+data.setCell(19, 2, 'javaScript.JavaScriptTests')
+data.setCell(19, 3, 751);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSelectOption')
+data.setCell(20, 2, 'dropdown.DropdownTests')
+data.setCell(20, 3, 738);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testDomain')
+data.setCell(21, 2, 'javaScript.JavaScriptTests')
+data.setCell(21, 3, 691);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'JSAlertTest')
+data.setCell(22, 2, 'AlertsPage.AlertsTests')
+data.setCell(22, 3, 685);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testHoverUser1')
+data.setCell(23, 2, 'hover.HoverTests')
+data.setCell(23, 3, 681);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testScrollToButtom')
+data.setCell(24, 2, 'javaScript.JavaScriptTests')
+data.setCell(24, 3, 663);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSetInputInAlert')
+data.setCell(25, 2, 'AlertsPage.AlertsTests')
+data.setCell(25, 3, 652);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'JSAlertTest')
+data.setCell(26, 2, 'AlertsPage.AlertsTests')
+data.setCell(26, 3, 536);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testRightClick')
+data.setCell(27, 2, 'contextMenu.ContextTests')
+data.setCell(27, 3, 521);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testBackSpace')
+data.setCell(28, 2, 'keys.KeysTests')
+data.setCell(28, 3, 517);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'JSConfirmAlert')
+data.setCell(29, 2, 'AlertsPage.AlertsTests')
+data.setCell(29, 3, 470);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSetInputInAlert')
+data.setCell(30, 2, 'AlertsPage.AlertsTests')
+data.setCell(30, 3, 410);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testDeleteCookie')
+data.setCell(31, 2, 'Cookies.CookiesTests')
+data.setCell(31, 3, 380);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testPi')
+data.setCell(32, 2, 'keys.KeysTests')
+data.setCell(32, 3, 376);
+window.suiteTableData['Test_Automation_University_Suite']= { tableData: data, tableDiv: 'times-div-Test_Automation_University_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Test_Automation_University_Suite">
+              </div> <!-- times-div-Test_Automation_University_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation University Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Frames.NestedFramesTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LeftFrameTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">login.LoginTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testSuccessfulLogin3Parameters</span>
+                <br/>
+                <span class="ignored-method-name">testSuccessfulLogin</span>
+                <br/>
+                <span class="ignored-method-name">testSuccessfulLogin2</span>
+                <br/>
+                <span class="ignored-method-name">testSuccessfulLogin2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation_University_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AlertsPage.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">6414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JSAlertTest</span>
+                <span class="method-start">6743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=JSAlertTest status=SUCCESS method=AlertsTests.JSAlertTest()[pri:0, instance:AlertsP...)</span>
+                <span class="method-start">7298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">7304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">7662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JSConfirmAlert</span>
+                <span class="method-start">7863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=JSConfirmAlert status=SUCCESS method=AlertsTests.JSConfirmAlert()[pri:0, instance:A...)</span>
+                <span class="method-start">8337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">8339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">8649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetInputInAlert</span>
+                <span class="method-start">8855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSetInputInAlert status=SUCCESS method=AlertsTests.testSetInputInAlert()[pri:0, ...)</span>
+                <span class="method-start">9268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">9270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9567 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contextMenu.ContextTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">10170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">14888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRightClick</span>
+                <span class="method-start">15219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testRightClick status=SUCCESS method=ContextTests.testRightClick()[pri:0, instance:...)</span>
+                <span class="method-start">15759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">15763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16055 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Cookies.CookiesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">16647 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">21635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCookie</span>
+                <span class="method-start">21864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testDeleteCookie status=SUCCESS method=CookiesTests.testDeleteCookie()[pri:0, insta...)</span>
+                <span class="method-start">22246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">22249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22499 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dropdown.DropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">23096 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">28161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectOption</span>
+                <span class="method-start">28397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSelectOption status=SUCCESS method=DropdownTests.testSelectOption()[pri:0, inst...)</span>
+                <span class="method-start">29137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">29140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29394 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">forgotPassword.forgotPasswordTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">29992 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">34998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSendingEmail</span>
+                <span class="method-start">35251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSendingEmail status=SUCCESS method=forgotPasswordTests.testSendingEmail()[pri:0...)</span>
+                <span class="method-start">36487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">36489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36759 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Frames.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">37351 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Frames.FramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">37354 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Frames.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">42162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BottomFrameTest</span>
+                <span class="method-start">42400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=BottomFrameTest status=SUCCESS method=NestedFramesTests.BottomFrameTest()[pri:0, in...)</span>
+                <span class="method-start">43436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">43438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43772 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Frames.FramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">44362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ParagraphTest</span>
+                <span class="method-start">44576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=ParagraphTest status=SUCCESS method=FramesTests.ParagraphTest()[pri:0, instance:Fra...)</span>
+                <span class="method-start">45656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">45658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45942 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hover.HoverTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">46551 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">51285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHoverUser1</span>
+                <span class="method-start">51529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testHoverUser1 status=SUCCESS method=HoverTests.testHoverUser1()[pri:0, instance:ho...)</span>
+                <span class="method-start">52213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">52215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52474 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">javaScript.JavaScriptTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">53077 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">57843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollToTable</span>
+                <span class="method-start">58096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testScrollToTable status=SUCCESS method=JavaScriptTests.testScrollToTable()[pri:0, ...)</span>
+                <span class="method-start">58989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">58991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">59292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDomain</span>
+                <span class="method-start">59512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testDomain status=SUCCESS method=JavaScriptTests.testDomain()[pri:0, instance:javaS...)</span>
+                <span class="method-start">60205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">60208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">60484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollToButtom</span>
+                <span class="method-start">60726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testScrollToButtom status=SUCCESS method=JavaScriptTests.testScrollToButtom()[pri:0...)</span>
+                <span class="method-start">61391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">61393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">61667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollToFifthParagraph</span>
+                <span class="method-start">61918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testScrollToFifthParagraph status=SUCCESS method=JavaScriptTests.testScrollToFifthP...)</span>
+                <span class="method-start">63158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">63160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">63422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectOption</span>
+                <span class="method-start">63628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSelectOption status=SUCCESS method=JavaScriptTests.testSelectOption()[pri:0, in...)</span>
+                <span class="method-start">64382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">64384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64629 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.KeysTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">65312 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.MultiplyWindows</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">65312 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.KeysTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">70282 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.MultiplyWindows</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">70315 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.KeysTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBackSpace</span>
+                <span class="method-start">70557 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.MultiplyWindows</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FactExampleTests</span>
+                <span class="method-start">70563 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.KeysTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testBackSpace status=SUCCESS method=KeysTests.testBackSpace()[pri:0, instance:keys....)</span>
+                <span class="method-start">71078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">71081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">71373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPi</span>
+                <span class="method-start">71568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testPi status=SUCCESS method=KeysTests.testPi()[pri:0, instance:keys.KeysTests@10c2...)</span>
+                <span class="method-start">71946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">71949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.MultiplyWindows</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=FactExampleTests status=SUCCESS method=MultiplyWindows.FactExampleTests()[pri:0, in...)</span>
+                <span class="method-start">72161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">72163 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.KeysTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72200 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">keys.MultiplyWindows</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72445 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">73027 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">77728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin(tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">77940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTests.testSuccessfulLogin(java.lang....)</span>
+                <span class="method-start">79107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">79109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">79370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSuccessfulLogin(Pe, SuperSecretPassword!)</span>
+                <span class="method-start">79580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSuccessfulLogin status=FAILURE method=LoginTests.testSuccessfulLogin(java.lang....)</span>
+                <span class="method-start">80555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">80826 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81076 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">81662 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">86636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin3Parameters(tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">86867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSuccessfulLogin3Parameters status=SUCCESS method=LoginTests.testSuccessfulLogin...)</span>
+                <span class="method-start">88211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">88213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88468 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ModalWindow.ModalTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">89072 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">93710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">closeTestModal</span>
+                <span class="method-start">93933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=closeTestModal status=SUCCESS method=ModalTests.closeTestModal()[pri:0, instance:Mo...)</span>
+                <span class="method-start">96741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">96743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97030 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">navigation.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">97633 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">102321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testNavigator</span>
+                <span class="method-start">102552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testNavigator status=FAILURE method=NavigationTests.testNavigator()[pri:0, instance...)</span>
+                <span class="method-start">104426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">104707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">104995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSwitchTab</span>
+                <span class="method-start">105298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSwitchTab status=SUCCESS method=NavigationTests.testSwitchTab()[pri:0, instance...)</span>
+                <span class="method-start">106799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">106802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107069 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Slider.sliderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">107661 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">112518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setSliderNumberFour</span>
+                <span class="method-start">112760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=setSliderNumberFour status=SUCCESS method=sliderTests.setSliderNumberFour()[pri:0, ...)</span>
+                <span class="method-start">113615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">113617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113882 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">UploadFile.UploadFileTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">114481 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">119202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFileUpload</span>
+                <span class="method-start">119436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testFileUpload status=SUCCESS method=UploadFileTests.testFileUpload()[pri:0, instan...)</span>
+                <span class="method-start">120335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">120337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120597 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.FluentWait</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">121190 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitFactExercise</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">121190 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">121191 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">126260 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitFactExercise</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">126498 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.FluentWait</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">126502 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testWaitUntilHidden</span>
+                <span class="method-start">126506 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitFactExercise</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FactTest</span>
+                <span class="method-start">126740 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.FluentWait</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testWaitUntilHidden</span>
+                <span class="method-start">126742 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitFactExercise</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=FactTest status=SUCCESS method=WaitFactExercise.FactTest()[pri:0, instance:Wait.Wai...)</span>
+                <span class="method-start">132589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">132591 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testWaitUntilHidden status=SUCCESS method=WaitTests.testWaitUntilHidden()[pri:0, in...)</span>
+                <span class="method-start">132643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">132645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.FluentWait</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testWaitUntilHidden status=SUCCESS method=FluentWait.testWaitUntilHidden()[pri:0, i...)</span>
+                <span class="method-start">132684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">132686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitFactExercise</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132838 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.WaitTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132900 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Wait.FluentWait</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132951 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AlertsPage.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(FireFox)</span>
+                <span class="method-start">133547 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ModalWindow.ModalTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(FireFox)</span>
+                <span class="method-start">133548 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AlertsPage.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">143291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JSAlertTest</span>
+                <span class="method-start">143650 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ModalWindow.ModalTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">144173 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AlertsPage.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=JSAlertTest status=SUCCESS method=AlertsTests.JSAlertTest()[pri:0, instance:AlertsP...)</span>
+                <span class="method-start">144379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">144552 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ModalWindow.ModalTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">closeTestModal</span>
+                <span class="method-start">144553 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AlertsPage.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">144754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JSConfirmAlert</span>
+                <span class="method-start">145216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=JSConfirmAlert status=SUCCESS method=AlertsTests.JSConfirmAlert()[pri:0, instance:A...)</span>
+                <span class="method-start">145992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">145994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">goHome</span>
+                <span class="method-start">146328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetInputInAlert</span>
+                <span class="method-start">146618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=testSetInputInAlert status=SUCCESS method=AlertsTests.testSetInputInAlert()[pri:0, ...)</span>
+                <span class="method-start">147273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">147275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147471 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ModalWindow.ModalTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=closeTestModal status=SUCCESS method=ModalTests.closeTestModal()[pri:0, instance:Mo...)</span>
+                <span class="method-start">147746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot</span>
+                <span class="method-start">147748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148702 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

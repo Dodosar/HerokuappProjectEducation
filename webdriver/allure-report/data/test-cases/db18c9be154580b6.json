@@ -1,0 +1,137 @@
+{
+  "uid" : "db18c9be154580b6",
+  "name" : "testDomain",
+  "fullName" : "javaScript.JavaScriptTests.testDomain",
+  "historyId" : "1d1b15c7ec8e5d04b06f47b8c092973d",
+  "time" : {
+    "start" : 1574780884527,
+    "stop" : 1574780885145,
+    "duration" : 618
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1574780878328,
+      "stop" : 1574780883091,
+      "duration" : 4763
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1574780884287,
+      "stop" : 1574780884524,
+      "duration" : 237
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1574780885148,
+      "stop" : 1574780885148,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1574780889362,
+      "stop" : 1574780889930,
+      "duration" : 568
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "takeScreenshot",
+    "time" : {
+      "start" : 1574780885150,
+      "stop" : 1574780885396,
+      "duration" : 246
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "testClass",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDomain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation University Suite"
+  }, {
+    "name" : "suite",
+    "value" : "JS Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "javaScript.JavaScriptTests"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "4252@TYUDM.TestNG-test=JS Test-1(98)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db18c9be154580b6.json",
+  "parameterValues" : [ "Chrome" ]
+}
