@@ -246,7 +246,7 @@
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/runner/testng.xml</suiteXmlFile>
 						<!--  <suiteXmlFile>src/main/testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
