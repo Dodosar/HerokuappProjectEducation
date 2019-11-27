@@ -1,0 +1,1161 @@
+# Created at 2019-11-27T12:20:12.899
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2019-11-27T12:20:15.934
+Unexpected IOException: 8,1,Frames.NestedFramesTests,setUp(Frames.NestedFramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499,NestedFramesTests>BaseTests.setUp:69->BaseTests.goHome:115 \00BB UnreachableBrowser,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:21546\000ACaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:21546\000ACaused by: java.net.ConnectException: Connection refused: connect\000A
+
+
+# Created at 2019-11-27T12:20:15.935
+Unexpected IOException: 9,1,Frames.NestedFramesTests,goHome(Frames.NestedFramesTests),null,null,null
+
+
+# Created at 2019-11-27T12:20:15.944
+Unexpected IOException: 9,1,Frames.NestedFramesTests,BottomFrameTest(Frames.NestedFramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499,null
+
+
+# Created at 2019-11-27T12:20:17.012
+Unexpected IOException: 8,1,Frames.FramesTests,setUp(Frames.FramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615,FramesTests>BaseTests.setUp:69->BaseTests.goHome:115 \00BB UnreachableBrowser Erro...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:13654\000ACaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:13654\000ACaused by: java.net.ConnectException: Connection refused: connect\000A
+
+
+# Created at 2019-11-27T12:20:17.015
+Unexpected IOException: 9,1,Frames.FramesTests,goHome(Frames.FramesTests),null,null,null
+
+
+# Created at 2019-11-27T12:20:17.021
+Unexpected IOException: 9,1,Frames.FramesTests,ParagraphTest(Frames.FramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615,null
+
+
+# Created at 2019-11-27T12:20:18.470
+Unexpected IOException: 8,1,Frames.NestedFramesTests,tearDown(Frames.NestedFramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499,NestedFramesTests>BaseTests.tearDown:108 \00BB UnreachableBrowser Error communicat...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir1...}\002C goog:chromeOptions: {debuggerAddress: localhost:64483}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 37d9f7f6fae004dc817fb6cdf15e7499\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:21546\000ACaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:21546\000ACaused by: java.net.ConnectException: Connection refused: connect\000A
+
+
+# Created at 2019-11-27T12:20:19.532
+Unexpected IOException: 8,1,Frames.FramesTests,tearDown(Frames.FramesTests),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615,FramesTests>BaseTests.tearDown:108 \00BB UnreachableBrowser Error communicating wi...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'TYUDM'\002C ip: '192.168.1.104'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '11.0.5'\000ADriver info: driver.version: EventFiringWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.97\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CWindows\005CTEMP\005Cscoped_dir8...}\002C goog:chromeOptions: {debuggerAddress: localhost:64482}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2b4b9a1130ea1700db521b8c86ba1615\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:13654\000ACaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:13654\000ACaused by: java.net.ConnectException: Connection refused: connect\000A
+
+
+# Created at 2019-11-27T12:20:19.913
+Unexpected IOException with stream: S
+
+# Created at 2019-11-27T12:20:19.913
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:19.914
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.915
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.915
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:19.916
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:19.917
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.917
+Unexpected IOException with stream: g
+
+# Created at 2019-11-27T12:20:19.918
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.919
+Unexpected IOException with stream: C
+
+# Created at 2019-11-27T12:20:19.919
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:19.920
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.920
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.921
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:19.921
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.922
+Unexpected IOException with stream: D
+
+# Created at 2019-11-27T12:20:19.923
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.923
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:19.924
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:19.925
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.925
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.926
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.926
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:19.927
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:19.927
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:19.928
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.928
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:19.929
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.929
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:19.930
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-27T12:20:19.931
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.931
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:19.932
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.933
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.933
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.934
+Unexpected IOException with stream: (
+
+# Created at 2019-11-27T12:20:19.935
+Unexpected IOException with stream: f
+
+# Created at 2019-11-27T12:20:19.935
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.936
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:19.936
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.937
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:19.937
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.938
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.939
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.939
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.940
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.940
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:19.941
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.941
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.942
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:19.942
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.943
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.944
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-27T12:20:19.944
+Unexpected IOException with stream: f
+
+# Created at 2019-11-27T12:20:19.945
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:19.945
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.946
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.946
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.947
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:19.947
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-27T12:20:19.948
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.949
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:19.949
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-27T12:20:19.950
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.950
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.951
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:19.951
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:19.952
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.953
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-27T12:20:19.953
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-27T12:20:19.954
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.954
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.956
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.957
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:19.958
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-27T12:20:19.958
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:19.959
+Unexpected IOException with stream: -
+
+# Created at 2019-11-27T12:20:19.959
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.960
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.960
+Unexpected IOException with stream: f
+
+# Created at 2019-11-27T12:20:19.961
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:19.961
+Unexpected IOException with stream: /
+
+# Created at 2019-11-27T12:20:19.962
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:19.962
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.963
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.963
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.964
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:19.965
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:19.965
+Unexpected IOException with stream: -
+
+# Created at 2019-11-27T12:20:19.966
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:19.966
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.967
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.967
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:19.968
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:19.968
+Unexpected IOException with stream: /
+
+# Created at 2019-11-27T12:20:19.969
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.970
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:19.970
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-27T12:20:19.971
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:19.972
+Unexpected IOException with stream: @
+
+# Created at 2019-11-27T12:20:19.972
+Unexpected IOException with stream: {
+
+# Created at 2019-11-27T12:20:19.973
+Unexpected IOException with stream: #
+
+# Created at 2019-11-27T12:20:19.974
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.974
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:19.975
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:19.975
+Unexpected IOException with stream: }
+
+# Created at 2019-11-27T12:20:19.976
+Unexpected IOException with stream: )
+
+# Created at 2019-11-27T12:20:19.976
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.977
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.977
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.978
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.978
+Unexpected IOException with stream: p
+
+# Created at 2019-11-27T12:20:19.979
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.979
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.980
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:19.980
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.981
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:19.982
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-27T12:20:19.982
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-27T12:20:19.983
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:19.983
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:19.984
+Unexpected IOException with stream: 
+
+# Created at 2019-11-27T12:20:19.984
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-27T12:20:19.985
+Unexpected IOException with stream: O
+
+# Created at 2019-11-27T12:20:19.985
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.986
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:19.986
+Unexpected IOException with stream: y
+
+# Created at 2019-11-27T12:20:19.987
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.987
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:19.988
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.988
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:19.989
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.989
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:19.990
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.991
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:19.991
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.992
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.992
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.993
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.993
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:19.994
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:19.994
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:19.995
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:19.995
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:19.996
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:19.996
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.997
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.997
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:19.998
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:19.998
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:19.999
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:19.999
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:20.000
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:20.000
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.001
+Unexpected IOException with stream: w
+
+# Created at 2019-11-27T12:20:20.001
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.002
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.002
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:20.003
+Unexpected IOException with stream: 
+
+# Created at 2019-11-27T12:20:20.004
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-27T12:20:20.004
+Unexpected IOException with stream: P
+
+# Created at 2019-11-27T12:20:20.005
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:20.005
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.005
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.006
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.006
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.007
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.007
+Unexpected IOException with stream: p
+
+# Created at 2019-11-27T12:20:20.008
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.008
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.009
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.009
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.010
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:20.010
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.011
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.011
+Unexpected IOException with stream: p
+
+# Created at 2019-11-27T12:20:20.012
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.012
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.013
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.013
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.014
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.014
+Unexpected IOException with stream: u
+
+# Created at 2019-11-27T12:20:20.015
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.015
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.016
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.016
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.016
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:20.017
+Unexpected IOException with stream: y
+
+# Created at 2019-11-27T12:20:20.017
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.018
+Unexpected IOException with stream: C
+
+# Created at 2019-11-27T12:20:20.018
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.019
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.020
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.020
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:20.021
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.021
+Unexpected IOException with stream: D
+
+# Created at 2019-11-27T12:20:20.022
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.022
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.022
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:20.023
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.023
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.024
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.024
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.025
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.025
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.025
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.026
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.026
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.027
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:20.027
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.028
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.028
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.029
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.029
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.030
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.030
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.030
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.031
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.031
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.032
+Unexpected IOException with stream: f
+
+# Created at 2019-11-27T12:20:20.032
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.033
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.033
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:20.034
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.034
+Unexpected IOException with stream: w
+
+# Created at 2019-11-27T12:20:20.034
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.035
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.036
+Unexpected IOException with stream: k
+
+# Created at 2019-11-27T12:20:20.036
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.037
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.038
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.038
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.039
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.039
+Unexpected IOException with stream: p
+
+# Created at 2019-11-27T12:20:20.040
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.040
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.041
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:20.041
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.042
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.042
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.042
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.043
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.043
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:20.044
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:20.044
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.045
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.045
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.045
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.046
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:20.046
+Unexpected IOException with stream: y
+
+# Created at 2019-11-27T12:20:20.047
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.047
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:20.048
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.048
+Unexpected IOException with stream: l
+
+# Created at 2019-11-27T12:20:20.049
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.049
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:20.050
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.050
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.051
+Unexpected IOException with stream: u
+
+# Created at 2019-11-27T12:20:20.051
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.052
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.052
+Unexpected IOException with stream: c
+
+# Created at 2019-11-27T12:20:20.053
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.053
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.054
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.054
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:20.054
+Unexpected IOException with stream: 
+
+# Created at 2019-11-27T12:20:20.055
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-27T12:20:20.718
+Unexpected IOException with stream: [
+
+# Created at 2019-11-27T12:20:20.718
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-27T12:20:20.719
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:20.719
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:20.720
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-27T12:20:20.721
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:20.721
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-27T12:20:20.722
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:20.722
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:20.723
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-27T12:20:20.724
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-27T12:20:20.724
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:20.725
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:20.725
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-27T12:20:20.726
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:20.727
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-27T12:20:20.727
+Unexpected IOException with stream: [
+
+# Created at 2019-11-27T12:20:20.728
+Unexpected IOException with stream: W
+
+# Created at 2019-11-27T12:20:20.728
+Unexpected IOException with stream: A
+
+# Created at 2019-11-27T12:20:20.729
+Unexpected IOException with stream: R
+
+# Created at 2019-11-27T12:20:20.729
+Unexpected IOException with stream: N
+
+# Created at 2019-11-27T12:20:20.730
+Unexpected IOException with stream: I
+
+# Created at 2019-11-27T12:20:20.730
+Unexpected IOException with stream: N
+
+# Created at 2019-11-27T12:20:20.731
+Unexpected IOException with stream: G
+
+# Created at 2019-11-27T12:20:20.731
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-27T12:20:20.732
+Unexpected IOException with stream: :
+
+# Created at 2019-11-27T12:20:20.732
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.733
+Unexpected IOException with stream: T
+
+# Created at 2019-11-27T12:20:20.733
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.734
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.734
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.735
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.735
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:20.736
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.736
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.737
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.737
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.738
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.739
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.739
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.740
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.741
+Unexpected IOException with stream: f
+
+# Created at 2019-11-27T12:20:20.741
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.742
+Unexpected IOException with stream: C
+
+# Created at 2019-11-27T12:20:20.742
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.743
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.743
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.744
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:20.744
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.745
+Unexpected IOException with stream: D
+
+# Created at 2019-11-27T12:20:20.745
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.746
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.746
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:20.747
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.747
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.748
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.748
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.748
+Unexpected IOException with stream: a
+
+# Created at 2019-11-27T12:20:20.749
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.749
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.750
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.751
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.751
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.752
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.752
+Unexpected IOException with stream: b
+
+# Created at 2019-11-27T12:20:20.753
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.753
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.754
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.754
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.755
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.756
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.756
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.757
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.757
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.758
+Unexpected IOException with stream: d
+
+# Created at 2019-11-27T12:20:20.758
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.759
+Unexpected IOException with stream: w
+
+# Created at 2019-11-27T12:20:20.759
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.760
+Unexpected IOException with stream: t
+
+# Created at 2019-11-27T12:20:20.761
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.761
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.762
+Unexpected IOException with stream: C
+
+# Created at 2019-11-27T12:20:20.762
+Unexpected IOException with stream: h
+
+# Created at 2019-11-27T12:20:20.763
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.763
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.764
+Unexpected IOException with stream: m
+
+# Created at 2019-11-27T12:20:20.764
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.765
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.765
+Unexpected IOException with stream: v
+
+# Created at 2019-11-27T12:20:20.766
+Unexpected IOException with stream: e
+
+# Created at 2019-11-27T12:20:20.767
+Unexpected IOException with stream: r
+
+# Created at 2019-11-27T12:20:20.767
+Unexpected IOException with stream: s
+
+# Created at 2019-11-27T12:20:20.768
+Unexpected IOException with stream: i
+
+# Created at 2019-11-27T12:20:20.768
+Unexpected IOException with stream: o
+
+# Created at 2019-11-27T12:20:20.769
+Unexpected IOException with stream: n
+
+# Created at 2019-11-27T12:20:20.769
+Unexpected IOException with stream:  
+
+# Created at 2019-11-27T12:20:20.770
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-27T12:20:20.770
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-27T12:20:20.771
+Unexpected IOException with stream: .
+
+# Created at 2019-11-27T12:20:20.772
+Unexpected IOException with stream: 
+
+# Created at 2019-11-27T12:20:20.772
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-27T12:20:21.766
+Unexpected IOException with stream: Nov 27, 2019 12:20:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-27T12:20:21.792
+Unexpected IOException with stream: URL: https://the-internet.herokuapp.com/
+
+
