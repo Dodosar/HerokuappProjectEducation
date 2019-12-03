@@ -265,7 +265,7 @@
 		<name>DimaTiurin</name>
 	</organization>
 	
-	<reporting>
+	<reporting> 
 		<excludeDefaults>true</excludeDefaults>
 		<plugins>
 			<plugin>
