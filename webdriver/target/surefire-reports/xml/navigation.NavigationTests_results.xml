@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="3.837">
+           time="3.685">
   <properties />
-            <testcase name="testNavigator" time="2.169" classname="navigation.NavigationTests">
+            <testcase name="testNavigator" time="1.977" classname="navigation.NavigationTests">
                 <failure type="java.lang.AssertionError"
                   message="The following asserts failed:
 	The Welcome Link Is Not Correct On The Home Page expected [false] but found [true],
@@ -43,6 +43,6 @@
           </testcase>
   
   
-            <testcase name="testSwitchTab" time="1.668" classname="navigation.NavigationTests" />
+            <testcase name="testSwitchTab" time="1.708" classname="navigation.NavigationTests" />
       
 </testsuite>

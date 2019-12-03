@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 72.737 s <<< FAILURE! - in TestSuite
-testSuccessfulLogin(login.LoginTests)  Time elapsed: 1.038 s  <<< FAILURE!
+Tests run: 29, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 65.215 s <<< FAILURE! - in TestSuite
+testSuccessfulLogin(login.LoginTests)  Time elapsed: 0.971 s  <<< FAILURE!
 java.lang.AssertionError: Alert text is incorrect! expected [true] but found [false]
 	at login.LoginTests.testSuccessfulLogin(LoginTests.java:23)
 
-testNavigator(navigation.NavigationTests)  Time elapsed: 2.171 s  <<< FAILURE!
+testNavigator(navigation.NavigationTests)  Time elapsed: 1.979 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	The Welcome Link Is Not Correct On The Home Page expected [false] but found [true],

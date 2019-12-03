@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.049">
+           time="0.881">
   <properties />
   
   
-            <testcase name="testFileUpload" time="1.049" classname="UploadFile.UploadFileTests" />
+            <testcase name="testFileUpload" time="0.881" classname="UploadFile.UploadFileTests" />
       
 </testsuite>

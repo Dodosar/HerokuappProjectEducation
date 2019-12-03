@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.171">
+           time="6.060">
   <properties />
   
   
-            <testcase name="testWaitUntilHidden" time="6.171" classname="Wait.FluentWait" />
+            <testcase name="testWaitUntilHidden" time="6.060" classname="Wait.FluentWait" />
       
 </testsuite>

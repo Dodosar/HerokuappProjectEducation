@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="3.095">
+           time="2.362">
   <properties />
-            <testcase name="testSuccessfulLogin" time="1.820" classname="login.LoginTests">
+            <testcase name="testSuccessfulLogin" time="1.080" classname="login.LoginTests">
                 <failure type="java.lang.AssertionError"
                   message="Alert text is incorrect! expected [true] but found [false]"
               >
@@ -41,6 +41,6 @@
           </testcase>
   
   
-            <testcase name="testSuccessfulLogin" time="1.275" classname="login.LoginTests" />
+            <testcase name="testSuccessfulLogin" time="1.282" classname="login.LoginTests" />
       
 </testsuite>

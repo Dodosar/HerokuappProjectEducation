@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.786">
+           time="0.912">
   <properties />
   
   
-            <testcase name="testSelectOption" time="0.786" classname="dropdown.DropdownTests" />
+            <testcase name="testSelectOption" time="0.912" classname="dropdown.DropdownTests" />
       
 </testsuite>

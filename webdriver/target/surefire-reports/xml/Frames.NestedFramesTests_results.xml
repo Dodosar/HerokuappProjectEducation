@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.244">
+           time="1.186">
   <properties />
   
   
-            <testcase name="BottomFrameTest" time="1.244" classname="Frames.NestedFramesTests" />
+            <testcase name="BottomFrameTest" time="1.186" classname="Frames.NestedFramesTests" />
       
 </testsuite>

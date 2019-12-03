@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.933">
+           time="2.891">
   <properties />
   
   
-            <testcase name="closeTestModal" time="2.933" classname="ModalWindow.ModalTests" />
+            <testcase name="closeTestModal" time="2.891" classname="ModalWindow.ModalTests" />
       
 </testsuite>

@@ -1,0 +1,139 @@
+{
+  "uid" : "efef98fba31af532",
+  "name" : "testSetInputInAlert",
+  "fullName" : "AlertsPage.AlertsTests.testSetInputInAlert",
+  "historyId" : "bf8a9dcc9a39ba275c8918a98881c5bd",
+  "time" : {
+    "start" : 1575379102726,
+    "stop" : 1575379103272,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1575379092492,
+      "stop" : 1575379100106,
+      "duration" : 7614
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1575379102511,
+      "stop" : 1575379102723,
+      "duration" : 212
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1575379103550,
+      "stop" : 1575379104181,
+      "duration" : 631
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "takeScreenshot",
+    "time" : {
+      "start" : 1575379103278,
+      "stop" : 1575379103549,
+      "duration" : 271
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1575379103275,
+      "stop" : 1575379103275,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AlertsPage.AlertsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AlertsPage.AlertsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSetInputInAlert"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation University Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Alerts Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AlertsPage.AlertsTests"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "19364@TYUDM.TestNG-tests-1(15)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efef98fba31af532.json",
+  "parameterValues" : [ "Chrome" ]
+}

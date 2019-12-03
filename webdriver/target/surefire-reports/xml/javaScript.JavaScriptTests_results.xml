@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.222">
+           time="4.619">
   <properties />
   
   
-            <testcase name="testScrollToButtom" time="1.052" classname="javaScript.JavaScriptTests" />
-                <testcase name="testDomain" time="0.760" classname="javaScript.JavaScriptTests" />
-                <testcase name="testScrollToFifthParagraph" time="1.525" classname="javaScript.JavaScriptTests" />
-                <testcase name="testSelectOption" time="1.004" classname="javaScript.JavaScriptTests" />
-                <testcase name="testScrollToTable" time="0.881" classname="javaScript.JavaScriptTests" />
+            <testcase name="testSelectOption" time="0.902" classname="javaScript.JavaScriptTests" />
+                <testcase name="testScrollToTable" time="0.922" classname="javaScript.JavaScriptTests" />
+                <testcase name="testDomain" time="0.700" classname="javaScript.JavaScriptTests" />
+                <testcase name="testScrollToButtom" time="0.833" classname="javaScript.JavaScriptTests" />
+                <testcase name="testScrollToFifthParagraph" time="1.262" classname="javaScript.JavaScriptTests" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.570">
+           time="1.318">
   <properties />
   
   
-            <testcase name="ParagraphTest" time="1.570" classname="Frames.FramesTests" />
+            <testcase name="ParagraphTest" time="1.318" classname="Frames.FramesTests" />
       
 </testsuite>
