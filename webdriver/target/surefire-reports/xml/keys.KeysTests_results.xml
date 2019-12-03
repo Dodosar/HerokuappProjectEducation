@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Keys Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.944">
+  <properties />
+  
+  
+            <testcase name="testPi" time="0.413" classname="keys.KeysTests" />
+                <testcase name="testBackSpace" time="0.531" classname="keys.KeysTests" />
+      
+</testsuite>

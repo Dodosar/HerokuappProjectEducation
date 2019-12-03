@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JS Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.222">
+  <properties />
+  
+  
+            <testcase name="testScrollToButtom" time="1.052" classname="javaScript.JavaScriptTests" />
+                <testcase name="testDomain" time="0.760" classname="javaScript.JavaScriptTests" />
+                <testcase name="testScrollToFifthParagraph" time="1.525" classname="javaScript.JavaScriptTests" />
+                <testcase name="testSelectOption" time="1.004" classname="javaScript.JavaScriptTests" />
+                <testcase name="testScrollToTable" time="0.881" classname="javaScript.JavaScriptTests" />
+      
+</testsuite>

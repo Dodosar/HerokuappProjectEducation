@@ -4,2387 +4,402 @@
   "children" : [ {
     "name" : "TYUDM",
     "children" : [ {
-      "name" : "11416@TYUDM.TestNG-tests-4(18)",
+      "name" : "18524@TYUDM.TestNG-tests-3(17)",
       "children" : [ {
-        "name" : "testDomain",
-        "uid" : "58d0e4aedf86cc23",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370362267,
-          "stop" : 1575370363140,
-          "duration" : 873
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "38f724189b37a173",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370367300,
-          "stop" : 1575370368125,
-          "duration" : 825
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSwitchTab",
-        "uid" : "f7d0d73d35cb8a64",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370377236,
-          "stop" : 1575370378734,
-          "duration" : 1498
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "9fb29ad4b9508d8e",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370363776,
-          "stop" : 1575370364804,
-          "duration" : 1028
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToTable",
-        "uid" : "df216524bd27317f",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370360782,
-          "stop" : 1575370361641,
-          "duration" : 859
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "246b74e4fe0b019",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575370374362,
-          "stop" : 1575370376423,
-          "duration" : 2061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "27a236a828cb3bf5",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370351507,
-          "stop" : 1575370352509,
-          "duration" : 1002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "19f6b40f3e8b03dd",
-        "parentUid" : "b9fa87b434d631ce792d4829f7a5e91d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370365312,
-          "stop" : 1575370366756,
-          "duration" : 1444
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "b9fa87b434d631ce792d4829f7a5e91d"
-    }, {
-      "name" : "19328@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "testSendingEmail",
-        "uid" : "97aec027ccf2c0cb",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371400219,
-          "stop" : 1575371402337,
-          "duration" : 2118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "4d7a7447b080e1ed",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371420843,
-          "stop" : 1575371421905,
-          "duration" : 1062
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSwitchTab",
-        "uid" : "7ed80444de4d7cc",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371431708,
-          "stop" : 1575371433332,
-          "duration" : 1624
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToTable",
-        "uid" : "fafe82d435f0e358",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371412123,
-          "stop" : 1575371412929,
-          "duration" : 806
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDomain",
-        "uid" : "e378fade70900785",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371413603,
-          "stop" : 1575371414685,
-          "duration" : 1082
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "fb0b8229b3bae28d",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575371428172,
-          "stop" : 1575371430820,
-          "duration" : 2648
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "7e122a44a08bbca0",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371417191,
-          "stop" : 1575371420088,
-          "duration" : 2897
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "7639af36973c21cb",
-        "parentUid" : "488e0d16338ff4b6ef579b08f7a44763",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371415237,
-          "stop" : 1575371416453,
-          "duration" : 1216
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "488e0d16338ff4b6ef579b08f7a44763"
-    }, {
-      "name" : "11072@TYUDM.TestNG-tests-2(16)",
-      "children" : [ {
-        "name" : "ParagraphTest",
-        "uid" : "a56f3640d8882973",
-        "parentUid" : "27f4e9bd300005934d785fd0921e41ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369507722,
-          "stop" : 1575369509144,
-          "duration" : 1422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "BottomFrameTest",
-        "uid" : "538406c99e2a1f6e",
-        "parentUid" : "27f4e9bd300005934d785fd0921e41ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369516857,
-          "stop" : 1575369518101,
-          "duration" : 1244
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testRightClick",
-        "uid" : "a4ac0f793942bd4d",
-        "parentUid" : "27f4e9bd300005934d785fd0921e41ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369499318,
-          "stop" : 1575369499923,
-          "duration" : 605
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "fb492cf48df6b5eb",
-        "parentUid" : "27f4e9bd300005934d785fd0921e41ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369525853,
-          "stop" : 1575369526863,
-          "duration" : 1010
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "27f4e9bd300005934d785fd0921e41ed"
-    }, {
-      "name" : "19852@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "testWaitUntilHidden",
-        "uid" : "48417166de03f833",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371113581,
-          "stop" : 1575371119626,
-          "duration" : 6045
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDeleteCookie",
-        "uid" : "9c2bb1866d834b3c",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371065255,
-          "stop" : 1575371065727,
-          "duration" : 472
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "ParagraphTest",
-        "uid" : "13b4858ea7f4b2de",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371074320,
-          "stop" : 1575371075667,
-          "duration" : 1347
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "82535d076034d4b0",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371090250,
-          "stop" : 1575371096192,
-          "duration" : 5942
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "BottomFrameTest",
-        "uid" : "bda3a7395b9b0988",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371082658,
-          "stop" : 1575371083866,
-          "duration" : 1208
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactTest",
-        "uid" : "6294ab87838f1cf0",
-        "parentUid" : "4a5868655e9576351662dc7b34ae4b22",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371101982,
-          "stop" : 1575371107741,
-          "duration" : 5759
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "4a5868655e9576351662dc7b34ae4b22"
-    }, {
-      "name" : "11072@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "testScrollToTable",
-        "uid" : "6ea2b948a6f7554f",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369507560,
-          "stop" : 1575369508369,
-          "duration" : 809
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDeleteCookie",
-        "uid" : "7857b639e2e73163",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369499077,
-          "stop" : 1575369500603,
-          "duration" : 1526
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "fd2fb3fd9d914839",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369521789,
-          "stop" : 1575369524108,
-          "duration" : 2319
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDomain",
-        "uid" : "e70621f26f68166a",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369508947,
-          "stop" : 1575369509777,
-          "duration" : 830
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "f78768a092f11ec2",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369510274,
-          "stop" : 1575369510956,
-          "duration" : 682
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "a4318c5feb05e22",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369513370,
-          "stop" : 1575369514132,
-          "duration" : 762
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSwitchTab",
-        "uid" : "a57b1b52d344a985",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369524932,
-          "stop" : 1575369526493,
-          "duration" : 1561
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "a5d9c32927137262",
-        "parentUid" : "2e1ccf0d6ef7563416c2b48b3624bbd3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369511531,
-          "stop" : 1575369512850,
-          "duration" : 1319
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "2e1ccf0d6ef7563416c2b48b3624bbd3"
-    }, {
-      "name" : "19328@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "JSAlertTest",
-        "uid" : "c7c5620ff9286d62",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371400210,
-          "stop" : 1575371401409,
-          "duration" : 1199
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSetInputInAlert",
-        "uid" : "90b6b0a72e615916",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371403448,
-          "stop" : 1575371404475,
-          "duration" : 1027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "5053a2cac1aab2fa",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371414196,
-          "stop" : 1575371417375,
-          "duration" : 3179
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "6e5b3b4cc5b23502",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371402112,
-          "stop" : 1575371402808,
-          "duration" : 696
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "b7e44007c25d1499",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575371417845,
-          "stop" : 1575371420163,
-          "duration" : 2318
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "closeTestModal",
-        "uid" : "be9218cf13718909",
-        "parentUid" : "060d4218e5047c098c61cc06579095cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371428391,
-          "stop" : 1575371431311,
-          "duration" : 2920
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "060d4218e5047c098c61cc06579095cb"
-    }, {
-      "name" : "3196@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "testSwitchTab",
-        "uid" : "6788c271ec0f15c",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369136715,
-          "stop" : 1575369138287,
-          "duration" : 1572
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDomain",
-        "uid" : "75708c5ad6ef981",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369120885,
-          "stop" : 1575369121731,
-          "duration" : 846
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDeleteCookie",
-        "uid" : "c987d2dc199fe53d",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369111365,
-          "stop" : 1575369112594,
-          "duration" : 1229
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "ef1b91a52d94af0c",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369125952,
-          "stop" : 1575369126844,
-          "duration" : 892
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "85b99a4853465548",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369123949,
-          "stop" : 1575369125337,
-          "duration" : 1388
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "3f1a46c84a68b833",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369122227,
-          "stop" : 1575369122898,
-          "duration" : 671
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToTable",
-        "uid" : "a9da52c6fe013629",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369119425,
-          "stop" : 1575369120313,
-          "duration" : 888
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "8eaf95c1175c23b1",
-        "parentUid" : "78fec96daa81ac5da9ada2ab4ebf0fb3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369133684,
-          "stop" : 1575369135850,
-          "duration" : 2166
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "78fec96daa81ac5da9ada2ab4ebf0fb3"
-    }, {
-      "name" : "11416@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "testSendingEmail",
-        "uid" : "714ad4bdb5e20b53",
-        "parentUid" : "881006aadda5cc8749ac9403b0ec07bc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370351610,
-          "stop" : 1575370353462,
-          "duration" : 1852
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactExampleTests",
-        "uid" : "793300f897db59a6",
-        "parentUid" : "881006aadda5cc8749ac9403b0ec07bc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370369063,
-          "stop" : 1575370370681,
-          "duration" : 1618
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testBackSpace",
-        "uid" : "88e22522074e6415",
-        "parentUid" : "881006aadda5cc8749ac9403b0ec07bc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370360425,
-          "stop" : 1575370360960,
-          "duration" : 535
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testPi",
-        "uid" : "bd36e9a8eccf9837",
-        "parentUid" : "881006aadda5cc8749ac9403b0ec07bc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370361460,
-          "stop" : 1575370362112,
-          "duration" : 652
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "4c6b95246b352f60",
-        "parentUid" : "881006aadda5cc8749ac9403b0ec07bc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370377811,
-          "stop" : 1575370378750,
-          "duration" : 939
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "881006aadda5cc8749ac9403b0ec07bc"
-    }, {
-      "name" : "11072@TYUDM.TestNG-tests-4(18)",
-      "children" : [ {
-        "name" : "testHoverUser1",
-        "uid" : "f1fe9d7d219ddcd3",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369507447,
-          "stop" : 1575369508364,
-          "duration" : 917
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "617dfaa57c428560",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369550055,
-          "stop" : 1575369556201,
-          "duration" : 6146
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "608086ab0a7ab4fe",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369526402,
-          "stop" : 1575369532472,
-          "duration" : 6070
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
         "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "34dc19424062b797",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
+        "uid" : "289b2203c8b6866a",
+        "parentUid" : "a58af8bb02cf1f84756b7a9be0d14ea0",
         "status" : "passed",
         "time" : {
-          "start" : 1575369516538,
-          "stop" : 1575369517885,
-          "duration" : 1347
+          "start" : 1575377794417,
+          "stop" : 1575377795690,
+          "duration" : 1273
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
       }, {
-        "name" : "FactTest",
-        "uid" : "dc02ef59b880e710",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
+        "name" : "testFileUpload",
+        "uid" : "6d7cb77250299ccc",
+        "parentUid" : "a58af8bb02cf1f84756b7a9be0d14ea0",
         "status" : "passed",
         "time" : {
-          "start" : 1575369538405,
-          "stop" : 1575369544209,
-          "duration" : 5804
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "e30adefc8cba120",
-        "parentUid" : "3a634557da32be49d5d7aec7b7ad07a4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369499080,
-          "stop" : 1575369500032,
-          "duration" : 952
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "3a634557da32be49d5d7aec7b7ad07a4"
-    }, {
-      "name" : "20284@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "testSuccessfulLogin",
-        "uid" : "330f13191ea0f350",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369276941,
-          "stop" : 1575369278209,
-          "duration" : 1268
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "121454d99451a7ed",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369264907,
-          "stop" : 1575369265377,
-          "duration" : 470
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSetInputInAlert",
-        "uid" : "ac9905aaf8327539",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369265935,
-          "stop" : 1575369266743,
-          "duration" : 808
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "closeTestModal",
-        "uid" : "72bec4a907f48ddf",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369285329,
-          "stop" : 1575369288642,
-          "duration" : 3313
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "83b357e8db5f57dc",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369274449,
-          "stop" : 1575369276321,
-          "duration" : 1872
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "JSAlertTest",
-        "uid" : "fd5cfcbeef1ec0c5",
-        "parentUid" : "a13fa1714bca6abdc549b956f44c4d63",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369263047,
-          "stop" : 1575369263942,
-          "duration" : 895
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "a13fa1714bca6abdc549b956f44c4d63"
-    }, {
-      "name" : "19852@TYUDM.TestNG-tests-2(16)",
-      "children" : [ {
-        "name" : "testDomain",
-        "uid" : "698144f0ba8301b3",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371075181,
-          "stop" : 1575371076010,
-          "duration" : 829
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "72c36692a1547c67",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371077800,
-          "stop" : 1575371079088,
-          "duration" : 1288
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "d177cc5a80d5188f",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575371086822,
-          "stop" : 1575371088810,
-          "duration" : 1988
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "ab59b1cb5fcd78ff",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371079613,
-          "stop" : 1575371080766,
-          "duration" : 1153
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "a9147833b04055bc",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371076500,
-          "stop" : 1575371077260,
-          "duration" : 760
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToTable",
-        "uid" : "1011d2cd1b280cfd",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371073810,
-          "stop" : 1575371074599,
-          "duration" : 789
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testRightClick",
-        "uid" : "abb58d3f7d043177",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371065144,
-          "stop" : 1575371065842,
-          "duration" : 698
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSwitchTab",
-        "uid" : "54141020b458ba98",
-        "parentUid" : "8abd00564d54dc0309dede0961da01e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371089658,
-          "stop" : 1575371091271,
-          "duration" : 1613
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "8abd00564d54dc0309dede0961da01e7"
-    }, {
-      "name" : "20284@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "testSwitchTab",
-        "uid" : "38c8b16f20f27954",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369289521,
-          "stop" : 1575369291012,
-          "duration" : 1491
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToFifthParagraph",
-        "uid" : "73b28cbf8a7fa630",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369277350,
-          "stop" : 1575369278609,
-          "duration" : 1259
+          "start" : 1575377802438,
+          "stop" : 1575377803917,
+          "duration" : 1479
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testDeleteCookie",
-        "uid" : "30bd01f0a7efb30a",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
+        "uid" : "55895d593b549128",
+        "parentUid" : "a58af8bb02cf1f84756b7a9be0d14ea0",
         "status" : "passed",
         "time" : {
-          "start" : 1575369263458,
-          "stop" : 1575369265283,
-          "duration" : 1825
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "838f26c4b8bf1f8a",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369279147,
-          "stop" : 1575369279986,
-          "duration" : 839
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToButtom",
-        "uid" : "f437553f321f505",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369275965,
-          "stop" : 1575369276660,
-          "duration" : 695
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "Test",
-        "uid" : "9277afb376d7e1b4",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369286290,
-          "stop" : 1575369288685,
-          "duration" : 2395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDomain",
-        "uid" : "8f2d9a31265403d1",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369274660,
-          "stop" : 1575369275460,
-          "duration" : 800
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testScrollToTable",
-        "uid" : "15e24add8c826ebf",
-        "parentUid" : "9c69cce52ed6f4ed36914801103dd1f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369273158,
-          "stop" : 1575369274077,
-          "duration" : 919
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "9c69cce52ed6f4ed36914801103dd1f0"
-    }, {
-      "name" : "3196@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "testSuccessfulLogin",
-        "uid" : "9e2caab8491d7f6f",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369122082,
-          "stop" : 1575369123010,
+          "start" : 1575377777532,
+          "stop" : 1575377778460,
           "duration" : 928
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
+        "parameters" : [ "Chrome" ]
       }, {
-        "name" : "JSAlertTest",
-        "uid" : "374a5c14d092d099",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
+        "name" : "testHoverUser1",
+        "uid" : "63c8667c0b823376",
+        "parentUid" : "a58af8bb02cf1f84756b7a9be0d14ea0",
         "status" : "passed",
         "time" : {
-          "start" : 1575369110629,
-          "stop" : 1575369111493,
-          "duration" : 864
+          "start" : 1575377785672,
+          "stop" : 1575377786606,
+          "duration" : 934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      } ],
+      "uid" : "a58af8bb02cf1f84756b7a9be0d14ea0"
+    }, {
+      "name" : "18524@TYUDM.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "JSConfirmAlert",
+        "uid" : "45ca9b20b4f2ce67",
+        "parentUid" : "8706d457d862544b23e7932402939433",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377778616,
+          "stop" : 1575377779123,
+          "duration" : 507
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testSetInputInAlert",
-        "uid" : "fde1d897ba65c945",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
+        "uid" : "6ff6b6b1c20ab58c",
+        "parentUid" : "8706d457d862544b23e7932402939433",
         "status" : "passed",
         "time" : {
-          "start" : 1575369113221,
-          "stop" : 1575369113684,
-          "duration" : 463
+          "start" : 1575377779649,
+          "stop" : 1575377780147,
+          "duration" : 498
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testSuccessfulLogin",
-        "uid" : "72f8b96fd72d4731",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369120056,
-          "stop" : 1575369121568,
-          "duration" : 1512
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "closeTestModal",
-        "uid" : "6520e372d00e04c5",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369130165,
-          "stop" : 1575369133458,
-          "duration" : 3293
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "bece8065da695c86",
-        "parentUid" : "135e813d7f5aefd5f225c52344610fb7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369112070,
-          "stop" : 1575369112689,
-          "duration" : 619
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "135e813d7f5aefd5f225c52344610fb7"
-    }, {
-      "name" : "3196@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "testWaitUntilHidden",
-        "uid" : "69cba5f58680c673",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369161297,
-          "stop" : 1575369167490,
-          "duration" : 6193
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testBackSpace",
-        "uid" : "cff0c62cad37a87a",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369119658,
-          "stop" : 1575369120271,
-          "duration" : 613
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactTest",
-        "uid" : "3ec9e6a328cd1d7",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369149480,
-          "stop" : 1575369155504,
-          "duration" : 6024
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSendingEmail",
-        "uid" : "39a0697e7d113169",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369111231,
-          "stop" : 1575369112823,
-          "duration" : 1592
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "7bdb563ec34dcfab",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369137386,
-          "stop" : 1575369143300,
-          "duration" : 5914
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactExampleTests",
-        "uid" : "acf411612110132e",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369129488,
-          "stop" : 1575369131167,
-          "duration" : 1679
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testPi",
-        "uid" : "10f72243994dfdd9",
-        "parentUid" : "e18bb5e88b355611e8fe77fc0407c0da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369120821,
-          "stop" : 1575369121609,
-          "duration" : 788
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "e18bb5e88b355611e8fe77fc0407c0da"
-    }, {
-      "name" : "20284@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "FactExampleTests",
-        "uid" : "a2b2b46ed3651f09",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369281533,
-          "stop" : 1575369283215,
-          "duration" : 1682
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "d2db28a134c01ff0",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369313797,
-          "stop" : 1575369319816,
-          "duration" : 6019
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSendingEmail",
-        "uid" : "822a4462778487c0",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369263400,
-          "stop" : 1575369265324,
-          "duration" : 1924
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "5dc221c9d76d2f22",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369290411,
-          "stop" : 1575369296399,
-          "duration" : 5988
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactTest",
-        "uid" : "fa8c4ea72bc6c4dd",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369302201,
-          "stop" : 1575369308055,
-          "duration" : 5854
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testPi",
-        "uid" : "651e5f56fdb90dd3",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369274234,
-          "stop" : 1575369274767,
-          "duration" : 533
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testBackSpace",
-        "uid" : "3c0a72b4966edf1",
-        "parentUid" : "75f556f169cfd94afb5dc029a424a998",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369273161,
-          "stop" : 1575369273646,
-          "duration" : 485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "75f556f169cfd94afb5dc029a424a998"
-    }, {
-      "name" : "19852@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "testSuccessfulLogin",
-        "uid" : "c295ede58fb7da0d",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371074994,
-          "stop" : 1575371076235,
-          "duration" : 1241
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "testSetInputInAlert",
-        "uid" : "f850e890390114f7",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371068021,
-          "stop" : 1575371068813,
-          "duration" : 792
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "closeTestModal",
-        "uid" : "f66eabd46ab8aa5",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371084887,
-          "stop" : 1575371087704,
-          "duration" : 2817
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "1c6307305b62bf6e",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371066479,
-          "stop" : 1575371067341,
-          "duration" : 862
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "fb301340bb33eb2f",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
+        "uid" : "9fe50537c637317a",
+        "parentUid" : "8706d457d862544b23e7932402939433",
         "status" : "failed",
         "time" : {
-          "start" : 1575371076683,
-          "stop" : 1575371077844,
+          "start" : 1575377790480,
+          "stop" : 1575377791641,
           "duration" : 1161
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
       }, {
-        "name" : "JSAlertTest",
-        "uid" : "d14a99d68c1f17ac",
-        "parentUid" : "1cc312e6f09930f7edecc4ea8f0eb74f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371065210,
-          "stop" : 1575371065923,
-          "duration" : 713
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "1cc312e6f09930f7edecc4ea8f0eb74f"
-    }, {
-      "name" : "11072@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "closeTestModal",
-        "uid" : "f437bfb8610dcb08",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369519393,
-          "stop" : 1575369522227,
-          "duration" : 2834
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "JSAlertTest",
-        "uid" : "e72830bfdf586dd4",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369499078,
-          "stop" : 1575369499867,
-          "duration" : 789
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "c5118599e4c04fb8",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369500407,
-          "stop" : 1575369500876,
-          "duration" : 469
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
         "name" : "testSuccessfulLogin",
-        "uid" : "a78e066207a094f6",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575369510941,
-          "stop" : 1575369512186,
-          "duration" : 1245
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "testSetInputInAlert",
-        "uid" : "7aa34a37855ca2f6",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
+        "uid" : "24feea070bf15453",
+        "parentUid" : "8706d457d862544b23e7932402939433",
         "status" : "passed",
         "time" : {
-          "start" : 1575369501401,
-          "stop" : 1575369501911,
-          "duration" : 510
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "ff04d180d2222981",
-        "parentUid" : "a86bdc56b2a129263ae245a236d42dcc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369509097,
-          "stop" : 1575369510457,
-          "duration" : 1360
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
-      } ],
-      "uid" : "a86bdc56b2a129263ae245a236d42dcc"
-    }, {
-      "name" : "3196@TYUDM.TestNG-tests-4(18)",
-      "children" : [ {
-        "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "fb57d4b8fa0cef51",
-        "parentUid" : "445a4859838a3aa968238c2c64df8eec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369126659,
-          "stop" : 1575369128061,
-          "duration" : 1402
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "cc7dc57d0b03a04f",
-        "parentUid" : "445a4859838a3aa968238c2c64df8eec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369110632,
-          "stop" : 1575369111643,
-          "duration" : 1011
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "setSliderNumberFour",
-        "uid" : "12fa430182c10c8",
-        "parentUid" : "445a4859838a3aa968238c2c64df8eec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369135159,
-          "stop" : 1575369136517,
-          "duration" : 1358
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testHoverUser1",
-        "uid" : "3f0bc7652dcc3049",
-        "parentUid" : "445a4859838a3aa968238c2c64df8eec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369118400,
-          "stop" : 1575369119214,
-          "duration" : 814
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "445a4859838a3aa968238c2c64df8eec"
-    }, {
-      "name" : "20284@TYUDM.TestNG-tests-4(18)",
-      "children" : [ {
-        "name" : "ParagraphTest",
-        "uid" : "af0da8227a3798ad",
-        "parentUid" : "a6e844b02acb1a0a3b275ed5ef18d87f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369272899,
-          "stop" : 1575369274792,
-          "duration" : 1893
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "BottomFrameTest",
-        "uid" : "b0b354c1d2d52712",
-        "parentUid" : "a6e844b02acb1a0a3b275ed5ef18d87f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369280936,
-          "stop" : 1575369282129,
-          "duration" : 1193
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "setSliderNumberFour",
-        "uid" : "c83d36d3fabfdf1c",
-        "parentUid" : "a6e844b02acb1a0a3b275ed5ef18d87f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369288673,
-          "stop" : 1575369289751,
-          "duration" : 1078
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSelectOption",
-        "uid" : "336e0d9ecba44e61",
-        "parentUid" : "a6e844b02acb1a0a3b275ed5ef18d87f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369263042,
-          "stop" : 1575369264056,
-          "duration" : 1014
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "a6e844b02acb1a0a3b275ed5ef18d87f"
-    }, {
-      "name" : "11416@TYUDM.TestNG-tests-1(15)",
-      "children" : [ {
-        "name" : "testSetInputInAlert",
-        "uid" : "5d12394a0a71f7aa",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370354510,
-          "stop" : 1575370355260,
-          "duration" : 750
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "JSConfirmAlert",
-        "uid" : "a0888e53ba6c29a1",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370353252,
-          "stop" : 1575370353824,
-          "duration" : 572
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "5f409534b17d4cd3",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
-        "status" : "failed",
-        "time" : {
-          "start" : 1575370364335,
-          "stop" : 1575370365504,
-          "duration" : 1169
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Pe", "SuperSecretPassword!", "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin",
-        "uid" : "8c15a04ce5013acc",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370362317,
-          "stop" : 1575370363738,
-          "duration" : 1421
+          "start" : 1575377788299,
+          "stop" : 1575377789978,
+          "duration" : 1679
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome" ]
       }, {
-        "name" : "JSAlertTest",
-        "uid" : "c2d2b7a89c61f203",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370351934,
-          "stop" : 1575370352723,
-          "duration" : 789
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
         "name" : "closeTestModal",
-        "uid" : "1f549bfc83ad4a34",
-        "parentUid" : "5216ad68c57889e570eb8fdf75abd851",
+        "uid" : "c3daab1783aa32ea",
+        "parentUid" : "8706d457d862544b23e7932402939433",
         "status" : "passed",
         "time" : {
-          "start" : 1575370372632,
-          "stop" : 1575370375693,
-          "duration" : 3061
+          "start" : 1575377798287,
+          "stop" : 1575377801202,
+          "duration" : 2915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "JSAlertTest",
+        "uid" : "6b89a5d6ff72026e",
+        "parentUid" : "8706d457d862544b23e7932402939433",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377777290,
+          "stop" : 1575377778024,
+          "duration" : 734
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       } ],
-      "uid" : "5216ad68c57889e570eb8fdf75abd851"
+      "uid" : "8706d457d862544b23e7932402939433"
     }, {
-      "name" : "11416@TYUDM.TestNG-tests-2(16)",
+      "name" : "18524@TYUDM.TestNG-tests-5(19)",
       "children" : [ {
-        "name" : "testHoverUser1",
-        "uid" : "eda652f75b0a1ee1",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370360579,
-          "stop" : 1575370361383,
-          "duration" : 804
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactTest",
-        "uid" : "4acb21425964d1b4",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370389665,
-          "stop" : 1575370395494,
-          "duration" : 5829
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testRightClick",
-        "uid" : "170669bf41a31544",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370351508,
-          "stop" : 1575370352316,
-          "duration" : 808
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "c8b5c7db7a68dd3f",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370377932,
-          "stop" : 1575370383924,
-          "duration" : 5992
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "64abe6bacb71a3b9",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370369143,
-          "stop" : 1575370371061,
-          "duration" : 1918
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "dab57435e36a6baf",
-        "parentUid" : "91314b39b7c343102517f5d93d252f48",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370401299,
-          "stop" : 1575370407445,
-          "duration" : 6146
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "91314b39b7c343102517f5d93d252f48"
-    }, {
-      "name" : "19328@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "testWaitUntilHidden",
-        "uid" : "bf45a04270678f4c",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371432234,
-          "stop" : 1575371438366,
-          "duration" : 6132
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testWaitUntilHidden",
-        "uid" : "4782ae6cccb292d4",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371456073,
-          "stop" : 1575371462275,
-          "duration" : 6202
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
         "name" : "testBackSpace",
-        "uid" : "fddf6cf945ea787b",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
+        "uid" : "3d2d2fd69f89d083",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
         "status" : "passed",
         "time" : {
-          "start" : 1575371414134,
-          "stop" : 1575371414990,
-          "duration" : 856
+          "start" : 1575377786051,
+          "stop" : 1575377786603,
+          "duration" : 552
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
-        "name" : "testPi",
-        "uid" : "1bedbb1a3d60efc8",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
+        "name" : "testWaitUntilHidden",
+        "uid" : "9c998acb151342e5",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
         "status" : "passed",
         "time" : {
-          "start" : 1575371415552,
-          "stop" : 1575371416698,
-          "duration" : 1146
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactExampleTests",
-        "uid" : "5538fab2235ad205",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371424160,
-          "stop" : 1575371425744,
-          "duration" : 1584
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDeleteCookie",
-        "uid" : "70f6cbb75100b432",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371400352,
-          "stop" : 1575371403566,
-          "duration" : 3214
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactTest",
-        "uid" : "57e4eb1020669861",
-        "parentUid" : "13692f422a304338fe90784a8fb48735",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371444098,
-          "stop" : 1575371449853,
-          "duration" : 5755
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "13692f422a304338fe90784a8fb48735"
-    }, {
-      "name" : "19852@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "testPi",
-        "uid" : "9b82c4e284f22f9d",
-        "parentUid" : "db1988039ec9880718d23ed6da9b6128",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371075130,
-          "stop" : 1575371075526,
-          "duration" : 396
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testBackSpace",
-        "uid" : "e44bd95a5219c60",
-        "parentUid" : "db1988039ec9880718d23ed6da9b6128",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371074056,
-          "stop" : 1575371074622,
-          "duration" : 566
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "87746176ae29fc9c",
-        "parentUid" : "db1988039ec9880718d23ed6da9b6128",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371090903,
-          "stop" : 1575371092007,
-          "duration" : 1104
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactExampleTests",
-        "uid" : "165175834c321c2f",
-        "parentUid" : "db1988039ec9880718d23ed6da9b6128",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371082208,
-          "stop" : 1575371083749,
-          "duration" : 1541
+          "start" : 1575377803090,
+          "stop" : 1575377809150,
+          "duration" : 6060
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testSendingEmail",
-        "uid" : "8685439324d0a6d2",
-        "parentUid" : "db1988039ec9880718d23ed6da9b6128",
+        "uid" : "7da0eb9d7b7ab8b3",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
         "status" : "passed",
         "time" : {
-          "start" : 1575371065145,
-          "stop" : 1575371066751,
-          "duration" : 1606
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "db1988039ec9880718d23ed6da9b6128"
-    }, {
-      "name" : "11072@TYUDM.TestNG-tests-5(19)",
-      "children" : [ {
-        "name" : "setSliderNumberFour",
-        "uid" : "375906c21288a394",
-        "parentUid" : "a1a18ec5b5917dc6f3663bb869df44e8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369525269,
-          "stop" : 1575369526270,
-          "duration" : 1001
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "FactExampleTests",
-        "uid" : "749ccda50ad890f5",
-        "parentUid" : "a1a18ec5b5917dc6f3663bb869df44e8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369516691,
-          "stop" : 1575369518187,
-          "duration" : 1496
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testBackSpace",
-        "uid" : "90c884fd3bf72a8b",
-        "parentUid" : "a1a18ec5b5917dc6f3663bb869df44e8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369507890,
-          "stop" : 1575369508382,
-          "duration" : 492
+          "start" : 1575377777289,
+          "stop" : 1575377779036,
+          "duration" : 1747
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testPi",
-        "uid" : "d0e35984a31b4b74",
-        "parentUid" : "a1a18ec5b5917dc6f3663bb869df44e8",
+        "uid" : "6bf0e7862724d745",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
         "status" : "passed",
         "time" : {
-          "start" : 1575369508968,
-          "stop" : 1575369509407,
-          "duration" : 439
+          "start" : 1575377787110,
+          "stop" : 1575377787479,
+          "duration" : 369
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
-        "name" : "testSendingEmail",
-        "uid" : "4ff8410a62b06282",
-        "parentUid" : "a1a18ec5b5917dc6f3663bb869df44e8",
+        "name" : "FactTest",
+        "uid" : "ab73f92ab9924638",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
         "status" : "passed",
         "time" : {
-          "start" : 1575369499077,
-          "stop" : 1575369500901,
-          "duration" : 1824
+          "start" : 1575377816006,
+          "stop" : 1575377821804,
+          "duration" : 5798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "FactExampleTests",
+        "uid" : "b1e1c545c8d99a0f",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377794717,
+          "stop" : 1575377796295,
+          "duration" : 1578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "testWaitUntilHidden",
+        "uid" : "1f290eaf252ee2f",
+        "parentUid" : "c412563c7d6c08537e27d666822ad918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377827779,
+          "stop" : 1575377833940,
+          "duration" : 6161
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       } ],
-      "uid" : "a1a18ec5b5917dc6f3663bb869df44e8"
+      "uid" : "c412563c7d6c08537e27d666822ad918"
     }, {
-      "name" : "19328@TYUDM.TestNG-tests-2(16)",
+      "name" : "18524@TYUDM.TestNG-tests-4(18)",
       "children" : [ {
-        "name" : "ParagraphTest",
-        "uid" : "7809c92c8b99f2a5",
-        "parentUid" : "30e79c40b27da9aba9a4754b1a8b28f2",
+        "name" : "testScrollToFifthParagraph",
+        "uid" : "6eb08c685dcf0d53",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
         "status" : "passed",
         "time" : {
-          "start" : 1575371412069,
-          "stop" : 1575371414409,
-          "duration" : 2340
+          "start" : 1575377789990,
+          "stop" : 1575377791275,
+          "duration" : 1285
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
-        "name" : "BottomFrameTest",
-        "uid" : "a09b9ae0093b9a1a",
-        "parentUid" : "30e79c40b27da9aba9a4754b1a8b28f2",
+        "name" : "testScrollToButtom",
+        "uid" : "19e21d93f9b73434",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
         "status" : "passed",
         "time" : {
-          "start" : 1575371423662,
-          "stop" : 1575371425280,
-          "duration" : 1618
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testRightClick",
-        "uid" : "fada82589d97ea83",
-        "parentUid" : "30e79c40b27da9aba9a4754b1a8b28f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371399899,
-          "stop" : 1575371401227,
-          "duration" : 1328
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "ee0b3d672e7e9e5b",
-        "parentUid" : "30e79c40b27da9aba9a4754b1a8b28f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371432289,
-          "stop" : 1575371433358,
-          "duration" : 1069
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "30e79c40b27da9aba9a4754b1a8b28f2"
-    }, {
-      "name" : "3196@TYUDM.TestNG-tests-2(16)",
-      "children" : [ {
-        "name" : "testRightClick",
-        "uid" : "afc61fb1822cb5ae",
-        "parentUid" : "f54df8f35f9696250b78b7d2033bd4f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369110649,
-          "stop" : 1575369111541,
-          "duration" : 892
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "BottomFrameTest",
-        "uid" : "ea43666e27f176d7",
-        "parentUid" : "f54df8f35f9696250b78b7d2033bd4f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369127182,
-          "stop" : 1575369128509,
-          "duration" : 1327
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "ParagraphTest",
-        "uid" : "ec326ea89beb83d9",
-        "parentUid" : "f54df8f35f9696250b78b7d2033bd4f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369118485,
-          "stop" : 1575369119860,
-          "duration" : 1375
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "597f19bcdce2eefb",
-        "parentUid" : "f54df8f35f9696250b78b7d2033bd4f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369135247,
-          "stop" : 1575369136588,
-          "duration" : 1341
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "f54df8f35f9696250b78b7d2033bd4f2"
-    }, {
-      "name" : "11416@TYUDM.TestNG-tests-3(17)",
-      "children" : [ {
-        "name" : "ParagraphTest",
-        "uid" : "7382017a605cefc3",
-        "parentUid" : "4c52bd53ab1daa624b22549dc9a7a7b5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370360308,
-          "stop" : 1575370361766,
-          "duration" : 1458
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "BottomFrameTest",
-        "uid" : "de85ce09cb232399",
-        "parentUid" : "4c52bd53ab1daa624b22549dc9a7a7b5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370368986,
-          "stop" : 1575370370204,
-          "duration" : 1218
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testDeleteCookie",
-        "uid" : "4662ac1d30b960c1",
-        "parentUid" : "4c52bd53ab1daa624b22549dc9a7a7b5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370351507,
-          "stop" : 1575370352161,
-          "duration" : 654
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "setSliderNumberFour",
-        "uid" : "fbc38816832ba635",
-        "parentUid" : "4c52bd53ab1daa624b22549dc9a7a7b5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575370378069,
-          "stop" : 1575370379154,
-          "duration" : 1085
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "4c52bd53ab1daa624b22549dc9a7a7b5"
-    }, {
-      "name" : "20284@TYUDM.TestNG-tests-2(16)",
-      "children" : [ {
-        "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "1f8a8d5bf5bc6cfe",
-        "parentUid" : "276588b0eaf0561e3d227b28d4521de4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369281683,
-          "stop" : 1575369283076,
-          "duration" : 1393
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
-      }, {
-        "name" : "testHoverUser1",
-        "uid" : "2d26ab0b0cffa5b2",
-        "parentUid" : "276588b0eaf0561e3d227b28d4521de4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369273021,
-          "stop" : 1575369274443,
-          "duration" : 1422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testFileUpload",
-        "uid" : "2720f6abc07c3e14",
-        "parentUid" : "276588b0eaf0561e3d227b28d4521de4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369290326,
-          "stop" : 1575369291237,
-          "duration" : 911
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testRightClick",
-        "uid" : "6ce9d299222e812",
-        "parentUid" : "276588b0eaf0561e3d227b28d4521de4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575369263392,
-          "stop" : 1575369264227,
-          "duration" : 835
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "276588b0eaf0561e3d227b28d4521de4"
-    }, {
-      "name" : "19328@TYUDM.TestNG-tests-4(18)",
-      "children" : [ {
-        "name" : "testHoverUser1",
-        "uid" : "b97b6f5196cc8160",
-        "parentUid" : "e3c06c275456fa4d94f15319b946d89e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371411327,
-          "stop" : 1575371412303,
-          "duration" : 976
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "24051d89f8cd66ce",
-        "parentUid" : "e3c06c275456fa4d94f15319b946d89e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371422090,
-          "stop" : 1575371423979,
-          "duration" : 1889
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
-      }, {
-        "name" : "setSliderNumberFour",
-        "uid" : "6a4913f327a11e2c",
-        "parentUid" : "e3c06c275456fa4d94f15319b946d89e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371430769,
-          "stop" : 1575371431893,
-          "duration" : 1124
+          "start" : 1575377788610,
+          "stop" : 1575377789291,
+          "duration" : 681
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testSelectOption",
-        "uid" : "f3597f3f998b65ed",
-        "parentUid" : "e3c06c275456fa4d94f15319b946d89e",
+        "uid" : "40c2cef77e4a2655",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
         "status" : "passed",
         "time" : {
-          "start" : 1575371399900,
-          "stop" : 1575371401483,
-          "duration" : 1583
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "e3c06c275456fa4d94f15319b946d89e"
-    }, {
-      "name" : "19852@TYUDM.TestNG-tests-4(18)",
-      "children" : [ {
-        "name" : "setSliderNumberFour",
-        "uid" : "2cb887e2f6dc012a",
-        "parentUid" : "76775c185c72c1f893f6c553699a4e1d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371090339,
-          "stop" : 1575371091296,
-          "duration" : 957
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      }, {
-        "name" : "testSuccessfulLogin3Parameters",
-        "uid" : "d262e580720fe014",
-        "parentUid" : "76775c185c72c1f893f6c553699a4e1d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371082213,
-          "stop" : 1575371083727,
-          "duration" : 1514
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "tomsmith", "SuperSecretPassword!", "Chrome", "SuperSecretPassword!", "tomsmith" ]
-      }, {
-        "name" : "testHoverUser1",
-        "uid" : "9dbc6b9b469054aa",
-        "parentUid" : "76775c185c72c1f893f6c553699a4e1d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1575371074070,
-          "stop" : 1575371075011,
-          "duration" : 941
+          "start" : 1575377777629,
+          "stop" : 1575377778496,
+          "duration" : 867
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       }, {
         "name" : "testSelectOption",
-        "uid" : "2ebb17c9b3715452",
-        "parentUid" : "76775c185c72c1f893f6c553699a4e1d",
+        "uid" : "8e57665a6729e30d",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
         "status" : "passed",
         "time" : {
-          "start" : 1575371065110,
-          "stop" : 1575371066134,
-          "duration" : 1024
+          "start" : 1575377791789,
+          "stop" : 1575377792763,
+          "duration" : 974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "testDomain",
+        "uid" : "a7b6a220dceea25f",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377787385,
+          "stop" : 1575377788129,
+          "duration" : 744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "testSwitchTab",
+        "uid" : "40a5376d02d60b9a",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377801891,
+          "stop" : 1575377803733,
+          "duration" : 1842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "testScrollToTable",
+        "uid" : "bfa27b075c723d1d",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377785966,
+          "stop" : 1575377786832,
+          "duration" : 866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "Test",
+        "uid" : "ed27698f8fc5c2f5",
+        "parentUid" : "027e12b81b267b88759bbb6815de15bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1575377798518,
+          "stop" : 1575377801053,
+          "duration" : 2535
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       } ],
-      "uid" : "76775c185c72c1f893f6c553699a4e1d"
+      "uid" : "027e12b81b267b88759bbb6815de15bf"
+    }, {
+      "name" : "18524@TYUDM.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "BottomFrameTest",
+        "uid" : "1ed3cacf403a1e2b",
+        "parentUid" : "db1c7389aa042f668dd34ee6fe64634e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377794291,
+          "stop" : 1575377795428,
+          "duration" : 1137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "setSliderNumberFour",
+        "uid" : "627f7345f911a356",
+        "parentUid" : "db1c7389aa042f668dd34ee6fe64634e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377801991,
+          "stop" : 1575377803123,
+          "duration" : 1132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "testRightClick",
+        "uid" : "1326f21dda9952fe",
+        "parentUid" : "db1c7389aa042f668dd34ee6fe64634e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377777291,
+          "stop" : 1575377778144,
+          "duration" : 853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "ParagraphTest",
+        "uid" : "61af8fc8380b0ad9",
+        "parentUid" : "db1c7389aa042f668dd34ee6fe64634e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575377785753,
+          "stop" : 1575377787019,
+          "duration" : 1266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      } ],
+      "uid" : "db1c7389aa042f668dd34ee6fe64634e"
     } ],
     "uid" : "4be8f16a8bee722f615377d184622f3a"
   } ]

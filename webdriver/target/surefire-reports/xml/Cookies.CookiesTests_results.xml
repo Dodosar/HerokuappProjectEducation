@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cookies Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.389">
+  <properties />
+  
+  
+            <testcase name="testDeleteCookie" time="1.389" classname="Cookies.CookiesTests" />
+      
+</testsuite>

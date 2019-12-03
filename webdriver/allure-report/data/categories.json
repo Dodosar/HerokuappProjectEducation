@@ -7,13 +7,13 @@
       "name" : "Alert text is incorrect! expected [true] but found [false]",
       "children" : [ {
         "name" : "testSuccessfulLogin",
-        "uid" : "b7e44007c25d1499",
+        "uid" : "9fe50537c637317a",
         "parentUid" : "41a4374751accd3a78a7a70a1c40be8d",
         "status" : "failed",
         "time" : {
-          "start" : 1575371417845,
-          "stop" : 1575371420163,
-          "duration" : 2318
+          "start" : 1575377790480,
+          "stop" : 1575377791641,
+          "duration" : 1161
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "The following asserts failed:\n\tThe Welcome Link Is Not Correct On The Home Page expected [false] but found [true],\n\tThe Dashboard Is Not Correct On The Home Page expected [true] but found [false]",
       "children" : [ {
         "name" : "Test",
-        "uid" : "fb0b8229b3bae28d",
+        "uid" : "ed27698f8fc5c2f5",
         "parentUid" : "3e692917ae389b6e41977758638132f6",
         "status" : "failed",
         "time" : {
-          "start" : 1575371428172,
-          "stop" : 1575371430820,
-          "duration" : 2648
+          "start" : 1575377798518,
+          "stop" : 1575377801053,
+          "duration" : 2535
         },
         "flaky" : false,
         "newFailed" : false,

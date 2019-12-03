@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Alerts Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.989">
+  <properties />
+  
+  
+            <testcase name="JSConfirmAlert" time="0.507" classname="AlertsPage.AlertsTests" />
+                <testcase name="JSAlertTest" time="0.691" classname="AlertsPage.AlertsTests" />
+                <testcase name="testSetInputInAlert" time="0.791" classname="AlertsPage.AlertsTests" />
+      
+</testsuite>

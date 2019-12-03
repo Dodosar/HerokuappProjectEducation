@@ -1,1 +1,0 @@
-{"uuid":"9fa1ff84-6c2a-4e0f-9feb-6f909916cd8f","name":"base.BaseTests.recordFailure","description":"","start":1574786489109,"stop":1574786489109,"children":["47d3114d-4d54-48ac-8be9-8f11116bd4b2"],"afters":[{"name":"recordFailure","status":"passed","stage":"finished","description":"","start":1574786489109,"stop":1574786489109}]}

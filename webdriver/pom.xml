@@ -272,13 +272,13 @@
 				<groupId>io.qameta.allure</groupId>
 				<artifactId>allure-maven</artifactId>
 				<version>2.9</version>
-				 <configuration>
+				<!--  <configuration>
        <properties>
            <allure.issues.tracker.pattern>http://example.com/%s</allure.issues.tracker.pattern>
            <propertiesFilePath>C:/Users/tyudm/allure-testng-example/src/test/resources/allure.properties</propertiesFilePath>
            <reportDirectory>allure-report</reportDirectory>
        </properties>
-       </configuration>
+       </configuration> -->
 			</plugin>
 		</plugins>
 	</reporting>
