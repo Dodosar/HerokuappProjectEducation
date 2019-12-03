@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Automation University Suite" verbose="1" parallel="classes" thread-count="3">
+<suite name="Test Automation University Suite" verbose="1" parallel="tests" thread-count="5">
   	<parameter name="browserType" value="Chrome" />
 <listeners>
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-	<test name="Alerts Test">
+	<test name="Alerts Test" >
 		<classes>
 			<class name="AlertsPage.AlertsTests">
 				<methods>
@@ -196,14 +196,14 @@
 		</classes>
 	</test>
 	
-	<test name="FireFox Tests">
+	<!-- <test name="FireFox Tests">
 		<parameter name="browserType" value="FireFox" />
 		<classes>
 			<class name="AlertsPage.AlertsTests"/>
 			<class name="ModalWindow.ModalTests"/>
 		</classes>
 	</test>
-	
+	 -->
 
 
 

@@ -2,39 +2,18 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout\n  (Session info: headless chrome=78.0.3904.97)\nBuild info: version: '4.0.0-alpha-3', revision: '8c567de6dc'\nSystem info: host: 'TYUDM', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\tyudm\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ee49821bd18a4c3aad18ed630b0ca7cd\n*** Element info: {Using=css selector, value=#start button}",
-      "children" : [ {
-        "name" : "FactExampleTests",
-        "uid" : "e04fad709706f0b7",
-        "parentUid" : "e02a765c2c6d0d132bce37f0dc47c7de",
-        "status" : "broken",
-        "time" : {
-          "start" : 1574783380391,
-          "stop" : 1574783482877,
-          "duration" : 102486
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Chrome" ]
-      } ],
-      "uid" : "e02a765c2c6d0d132bce37f0dc47c7de"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "Alert text is incorrect! expected [true] but found [false]",
       "children" : [ {
         "name" : "testSuccessfulLogin",
-        "uid" : "c2331d78e06050c5",
+        "uid" : "b7e44007c25d1499",
         "parentUid" : "41a4374751accd3a78a7a70a1c40be8d",
         "status" : "failed",
         "time" : {
-          "start" : 1574783590428,
-          "stop" : 1574783591404,
-          "duration" : 976
+          "start" : 1575371417845,
+          "stop" : 1575371420163,
+          "duration" : 2318
         },
         "flaky" : false,
         "newFailed" : false,
@@ -45,36 +24,19 @@
       "name" : "The following asserts failed:\n\tThe Welcome Link Is Not Correct On The Home Page expected [false] but found [true],\n\tThe Dashboard Is Not Correct On The Home Page expected [true] but found [false]",
       "children" : [ {
         "name" : "Test",
-        "uid" : "6b78874f9d596150",
+        "uid" : "fb0b8229b3bae28d",
         "parentUid" : "3e692917ae389b6e41977758638132f6",
         "status" : "failed",
         "time" : {
-          "start" : 1574783613028,
-          "stop" : 1574783614819,
-          "duration" : 1791
+          "start" : 1575371428172,
+          "stop" : 1575371430820,
+          "duration" : 2648
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Chrome" ]
       } ],
       "uid" : "3e692917ae389b6e41977758638132f6"
-    }, {
-      "name" : "expected [true] but found [false]",
-      "children" : [ {
-        "name" : "closeTestModal",
-        "uid" : "7bd7492299f61119",
-        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1574783658221,
-          "stop" : 1574783661219,
-          "duration" : 2998
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "FireFox" ]
-      } ],
-      "uid" : "067aa11ae245eca950dc984999fefd6d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

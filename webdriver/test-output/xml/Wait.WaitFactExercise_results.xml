@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.769">
+           time="5.978">
   <properties />
   
   
-            <testcase name="FactTest" time="5.769" classname="Wait.WaitFactExercise" />
+            <testcase name="FactTest" time="5.978" classname="Wait.WaitFactExercise" />
       
 </testsuite>

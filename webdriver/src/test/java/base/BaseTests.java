@@ -9,6 +9,8 @@ import com.google.common.io.Files;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -17,11 +19,16 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -37,7 +44,7 @@ public class BaseTests {
     protected HomePage homePage;
     public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static String screenshotName;
-    
+    private String nodeURL = "http://192.168.1.104:4444/wd/hub";
     
 	@SuppressWarnings("deprecation")
 	@Parameters("browserType")
@@ -59,6 +66,15 @@ public class BaseTests {
 
 		driver.manage().window().maximize();
 		
+		}
+		else if (browserType.equals("ChromeRemote")) {
+				
+		try {
+			driver = new EventFiringWebDriver( new RemoteWebDriver(new URL(nodeURL), getRemoteChromeOptions()));
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		}
 		driver.register(new EventReporter());
 		
@@ -93,6 +109,21 @@ public class BaseTests {
     	options.addArguments("disable-infobars");
     	options.addArguments("--disable-notifications");
     	options.addArguments("--disable-extenstions"); 
+    	options.setHeadless(true); //What this means is it'll run our tests without actually opening our browser up.
+    	return options;
+	}
+	
+	public ChromeOptions getRemoteChromeOptions() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("test-type");
+    	 options.addArguments("start-maximized");
+    	 options.addArguments("disable-infobars");
+        //options.addArguments("--proxy-pac-url=http://myPacFile.com");
+        options.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
+        options.setAcceptInsecureCerts(true);
+        options.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
+        options.addArguments("--no-sandbox");
+  	  	options.setCapability("javascriptEnabled", "true");
     	options.setHeadless(true); //What this means is it'll run our tests without actually opening our browser up.
     	return options;
 	}
@@ -132,8 +163,8 @@ public class BaseTests {
 		System.out.println("Screenshot taken: " + scrFile.getAbsolutePath());
 	}
 	
-	/*
-	 * @AfterMethod
+	
+	/*@AfterMethod
 public void takeScreenshot(){
 
     var camera = (TakesScreenshot)driver;
@@ -144,8 +175,8 @@ public void takeScreenshot(){
     }catch(IOException e){
         e.printStackTrace();
     }
-}
-	 */
+}*/
+	 
 	
 	@AfterMethod
 	public void recordFailure(ITestResult result){

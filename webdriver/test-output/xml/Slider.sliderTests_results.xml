@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.823">
+           time="1.842">
   <properties />
   
   
-            <testcase name="setSliderNumberFour" time="0.823" classname="Slider.sliderTests" />
+            <testcase name="setSliderNumberFour" time="1.842" classname="Slider.sliderTests" />
       
 </testsuite>

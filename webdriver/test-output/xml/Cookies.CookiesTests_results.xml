@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.587">
+           time="2.872">
   <properties />
   
   
-            <testcase name="testDeleteCookie" time="0.587" classname="Cookies.CookiesTests" />
+            <testcase name="testDeleteCookie" time="2.872" classname="Cookies.CookiesTests" />
       
 </testsuite>

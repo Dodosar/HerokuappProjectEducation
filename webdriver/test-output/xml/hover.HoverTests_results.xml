@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.718">
+           time="2.195">
   <properties />
   
   
-            <testcase name="testHoverUser1" time="0.718" classname="hover.HoverTests" />
+            <testcase name="testHoverUser1" time="2.195" classname="hover.HoverTests" />
       
 </testsuite>

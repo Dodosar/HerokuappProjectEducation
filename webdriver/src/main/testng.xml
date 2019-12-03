@@ -24,7 +24,7 @@
 		</classes>
 	</test>
 	
-	<test name="LoginParameters1 Test">
+	<test name="LoginParametersAnother Test">
 		<parameter name = "user" value ="tomsmith"/>
 		<parameter name = "password" value ="SuperSecretPassword!"/>		
 		<classes>

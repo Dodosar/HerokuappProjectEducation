@@ -1,361 +1,291 @@
 [ {
-  "uid" : "c95c61ec47cbf170",
-  "name" : "testSuccessfulLogin3Parameters",
-  "time" : {
-    "start" : 1574773546584,
-    "stop" : 1574773547963,
-    "duration" : 1379
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7565cc01ea653570",
-  "name" : "testScrollToButtom",
-  "time" : {
-    "start" : 1574783369381,
-    "stop" : 1574783370101,
-    "duration" : 720
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aaf2404888cd1fe1",
-  "name" : "testScrollToTable",
-  "time" : {
-    "start" : 1574783366820,
-    "stop" : 1574783367652,
-    "duration" : 832
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7bd7492299f61119",
-  "name" : "closeTestModal",
-  "time" : {
-    "start" : 1574783658221,
-    "stop" : 1574783661219,
-    "duration" : 2998
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4414b10b07a0731d",
-  "name" : "testDomain",
-  "time" : {
-    "start" : 1574783368188,
-    "stop" : 1574783368789,
-    "duration" : 601
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7907f03869daade",
+  "uid" : "bf45a04270678f4c",
   "name" : "testWaitUntilHidden",
   "time" : {
-    "start" : 1574783637143,
-    "stop" : 1574783643330,
-    "duration" : 6187
+    "start" : 1575371432234,
+    "stop" : 1575371438366,
+    "duration" : 6132
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b45c0f21a451d39b",
-  "name" : "JSConfirmAlert",
+  "uid" : "f3597f3f998b65ed",
+  "name" : "testSelectOption",
   "time" : {
-    "start" : 1574783669395,
-    "stop" : 1574783670528,
-    "duration" : 1133
+    "start" : 1575371399900,
+    "stop" : 1575371401483,
+    "duration" : 1583
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "576fe24b9eabd4a0",
-  "name" : "BottomFrameTest",
-  "time" : {
-    "start" : 1574783353042,
-    "stop" : 1574783354035,
-    "duration" : 993
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ac91896fa556f9a",
-  "name" : "testScrollToFifthParagraph",
-  "time" : {
-    "start" : 1574783370586,
-    "stop" : 1574783371653,
-    "duration" : 1067
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e09d10db44fe5e16",
-  "name" : "testSuccessfulLogin3Parameters",
-  "time" : {
-    "start" : 1574783597442,
-    "stop" : 1574783598687,
-    "duration" : 1245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40a3f7c6ed4276c4",
-  "name" : "testRightClick",
-  "time" : {
-    "start" : 1574783326019,
-    "stop" : 1574783326544,
-    "duration" : 525
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2331d78e06050c5",
-  "name" : "testSuccessfulLogin",
-  "time" : {
-    "start" : 1574783590428,
-    "stop" : 1574783591404,
-    "duration" : 976
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b69bbf8a3cd7448e",
-  "name" : "testDeleteCookie",
-  "time" : {
-    "start" : 1574783332649,
-    "stop" : 1574783332932,
-    "duration" : 283
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc3d00dc55a764de",
+  "uid" : "b97b6f5196cc8160",
   "name" : "testHoverUser1",
   "time" : {
-    "start" : 1574783360266,
-    "stop" : 1574783360994,
-    "duration" : 728
+    "start" : 1575371411327,
+    "stop" : 1575371412303,
+    "duration" : 976
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9106d366fe74e855",
-  "name" : "testSetInputInAlert",
+  "uid" : "be9218cf13718909",
+  "name" : "closeTestModal",
   "time" : {
-    "start" : 1574783671165,
-    "stop" : 1574783671910,
-    "duration" : 745
+    "start" : 1575371428391,
+    "stop" : 1575371431311,
+    "duration" : 2920
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6a47f7fa874b2a1d",
-  "name" : "setSliderNumberFour",
-  "time" : {
-    "start" : 1574783623095,
-    "stop" : 1574783623944,
-    "duration" : 849
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e65ca3886fb4f844",
-  "name" : "testFileUpload",
-  "time" : {
-    "start" : 1574783629826,
-    "stop" : 1574783630730,
-    "duration" : 904
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6338d5a0e5aacff2",
-  "name" : "testSelectOption",
-  "time" : {
-    "start" : 1574783372140,
-    "stop" : 1574783372912,
-    "duration" : 772
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61f4f91f65a27e8a",
-  "name" : "testSetInputInAlert",
-  "time" : {
-    "start" : 1574783319148,
-    "stop" : 1574783319730,
-    "duration" : 582
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc221450ad1fb591",
-  "name" : "testSwitchTab",
-  "time" : {
-    "start" : 1574773533919,
-    "stop" : 1574773534541,
-    "duration" : 622
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c05c2becf37124",
-  "name" : "ParagraphTest",
-  "time" : {
-    "start" : 1574783352969,
-    "stop" : 1574783354224,
-    "duration" : 1255
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "520a0bb8248ea90e",
-  "name" : "FactTest",
-  "time" : {
-    "start" : 1574783637382,
-    "stop" : 1574783643178,
-    "duration" : 5796
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8beb02fdefb00c7f",
-  "name" : "testWaitUntilHidden",
-  "time" : {
-    "start" : 1574783637110,
-    "stop" : 1574783643084,
-    "duration" : 5974
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce6ad92988f040fa",
-  "name" : "testSwitchTab",
-  "time" : {
-    "start" : 1574783615609,
-    "stop" : 1574783617101,
-    "duration" : 1492
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b78874f9d596150",
+  "uid" : "fb0b8229b3bae28d",
   "name" : "Test",
   "time" : {
-    "start" : 1574783613028,
-    "stop" : 1574783614819,
-    "duration" : 1791
+    "start" : 1575371428172,
+    "stop" : 1575371430820,
+    "duration" : 2648
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "15f39146403dfad4",
-  "name" : "JSAlertTest",
-  "time" : {
-    "start" : 1574783658163,
-    "stop" : 1574783667035,
-    "duration" : 8872
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5aaf48de97b4f6fd",
-  "name" : "JSAlertTest",
-  "time" : {
-    "start" : 1574783317111,
-    "stop" : 1574783317666,
-    "duration" : 555
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4910b10053bdb8e4",
-  "name" : "closeTestModal",
-  "time" : {
-    "start" : 1574783604533,
-    "stop" : 1574783607305,
-    "duration" : 2772
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7977e3d373e02024",
-  "name" : "testSelectOption",
-  "time" : {
-    "start" : 1574783339113,
-    "stop" : 1574783339701,
-    "duration" : 588
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "945b5f69a4690031",
+  "uid" : "b7e44007c25d1499",
   "name" : "testSuccessfulLogin",
   "time" : {
-    "start" : 1574783588825,
-    "stop" : 1574783589940,
-    "duration" : 1115
+    "start" : 1575371417845,
+    "stop" : 1575371420163,
+    "duration" : 2318
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7809c92c8b99f2a5",
+  "name" : "ParagraphTest",
+  "time" : {
+    "start" : 1575371412069,
+    "stop" : 1575371414409,
+    "duration" : 2340
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e04fad709706f0b7",
-  "name" : "FactExampleTests",
-  "time" : {
-    "start" : 1574783380391,
-    "stop" : 1574783482877,
-    "duration" : 102486
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "592c9530809abc92",
-  "name" : "testBackSpace",
-  "time" : {
-    "start" : 1574783380501,
-    "stop" : 1574783381063,
-    "duration" : 562
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11c01a2a5601a4bb",
-  "name" : "testSendingEmail",
-  "time" : {
-    "start" : 1574783345358,
-    "stop" : 1574783346863,
-    "duration" : 1505
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fc8b6cfe2fef1a9",
-  "name" : "JSConfirmAlert",
-  "time" : {
-    "start" : 1574783318250,
-    "stop" : 1574783318662,
-    "duration" : 412
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "62910af18149d757",
+  "uid" : "1bedbb1a3d60efc8",
   "name" : "testPi",
   "time" : {
-    "start" : 1574783381548,
-    "stop" : 1574783381961,
-    "duration" : 413
+    "start" : 1575371415552,
+    "stop" : 1575371416698,
+    "duration" : 1146
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c1d8ff388bcc15ec",
+  "uid" : "7639af36973c21cb",
+  "name" : "testScrollToButtom",
+  "time" : {
+    "start" : 1575371415237,
+    "stop" : 1575371416453,
+    "duration" : 1216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c5620ff9286d62",
+  "name" : "JSAlertTest",
+  "time" : {
+    "start" : 1575371400210,
+    "stop" : 1575371401409,
+    "duration" : 1199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e5b3b4cc5b23502",
+  "name" : "JSConfirmAlert",
+  "time" : {
+    "start" : 1575371402112,
+    "stop" : 1575371402808,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee0b3d672e7e9e5b",
+  "name" : "testFileUpload",
+  "time" : {
+    "start" : 1575371432289,
+    "stop" : 1575371433358,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e378fade70900785",
+  "name" : "testDomain",
+  "time" : {
+    "start" : 1575371413603,
+    "stop" : 1575371414685,
+    "duration" : 1082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fddf6cf945ea787b",
+  "name" : "testBackSpace",
+  "time" : {
+    "start" : 1575371414134,
+    "stop" : 1575371414990,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4782ae6cccb292d4",
   "name" : "testWaitUntilHidden",
   "time" : {
-    "start" : 1574783105638,
-    "stop" : 1574783105642,
-    "duration" : 4
+    "start" : 1575371456073,
+    "stop" : 1575371462275,
+    "duration" : 6202
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5053a2cac1aab2fa",
+  "name" : "testSuccessfulLogin",
+  "time" : {
+    "start" : 1575371414196,
+    "stop" : 1575371417375,
+    "duration" : 3179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a09b9ae0093b9a1a",
+  "name" : "BottomFrameTest",
+  "time" : {
+    "start" : 1575371423662,
+    "stop" : 1575371425280,
+    "duration" : 1618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d7a7447b080e1ed",
+  "name" : "testSelectOption",
+  "time" : {
+    "start" : 1575371420843,
+    "stop" : 1575371421905,
+    "duration" : 1062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90b6b0a72e615916",
+  "name" : "testSetInputInAlert",
+  "time" : {
+    "start" : 1575371403448,
+    "stop" : 1575371404475,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5538fab2235ad205",
+  "name" : "FactExampleTests",
+  "time" : {
+    "start" : 1575371424160,
+    "stop" : 1575371425744,
+    "duration" : 1584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fada82589d97ea83",
+  "name" : "testRightClick",
+  "time" : {
+    "start" : 1575371399899,
+    "stop" : 1575371401227,
+    "duration" : 1328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24051d89f8cd66ce",
+  "name" : "testSuccessfulLogin3Parameters",
+  "time" : {
+    "start" : 1575371422090,
+    "stop" : 1575371423979,
+    "duration" : 1889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fafe82d435f0e358",
+  "name" : "testScrollToTable",
+  "time" : {
+    "start" : 1575371412123,
+    "stop" : 1575371412929,
+    "duration" : 806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed80444de4d7cc",
+  "name" : "testSwitchTab",
+  "time" : {
+    "start" : 1575371431708,
+    "stop" : 1575371433332,
+    "duration" : 1624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57e4eb1020669861",
+  "name" : "FactTest",
+  "time" : {
+    "start" : 1575371444098,
+    "stop" : 1575371449853,
+    "duration" : 5755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a4913f327a11e2c",
+  "name" : "setSliderNumberFour",
+  "time" : {
+    "start" : 1575371430769,
+    "stop" : 1575371431893,
+    "duration" : 1124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97aec027ccf2c0cb",
+  "name" : "testSendingEmail",
+  "time" : {
+    "start" : 1575371400219,
+    "stop" : 1575371402337,
+    "duration" : 2118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e122a44a08bbca0",
+  "name" : "testScrollToFifthParagraph",
+  "time" : {
+    "start" : 1575371417191,
+    "stop" : 1575371420088,
+    "duration" : 2897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70f6cbb75100b432",
+  "name" : "testDeleteCookie",
+  "time" : {
+    "start" : 1575371400352,
+    "stop" : 1575371403566,
+    "duration" : 3214
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

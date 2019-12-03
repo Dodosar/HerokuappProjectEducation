@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.440">
+           time="3.250">
   <properties />
   
   
-            <testcase name="testSetInputInAlert" time="0.426" classname="AlertsPage.AlertsTests" />
-                <testcase name="JSAlertTest" time="0.601" classname="AlertsPage.AlertsTests" />
-                <testcase name="JSConfirmAlert" time="0.413" classname="AlertsPage.AlertsTests" />
+            <testcase name="testSetInputInAlert" time="0.791" classname="AlertsPage.AlertsTests" />
+                <testcase name="JSAlertTest" time="1.633" classname="AlertsPage.AlertsTests" />
+                <testcase name="JSConfirmAlert" time="0.826" classname="AlertsPage.AlertsTests" />
       
 </testsuite>

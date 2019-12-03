@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.538">
+           time="1.363">
   <properties />
   
   
-            <testcase name="testRightClick" time="0.538" classname="contextMenu.ContextTests" />
+            <testcase name="testRightClick" time="1.363" classname="contextMenu.ContextTests" />
       
 </testsuite>
